@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 5.0.1 (Python 3.11.3 on linux)" generated="20231017 15:57:40.595" rpa="false" schemaversion="3">
+<suite id="s1" name="Login" source="/home/ikqa/robot/rf-katas/robot/login.robot">
+<test id="s1-t1" name="Welcome Page Should Be Visible After Successful Login" line="11">
+<kw name="Open Browser To Login Page">
+<kw name="New Browser" library="Browser">
+<arg>headless=${FALSE}</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Create a new playwright Browser with specified options.</doc>
+<msg timestamp="20231017 15:57:41.068" level="INFO">{"browser": "chromium", "headless": false, "chromiumSandbox": false, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 0.0, "timeout": 30000.0, "tracesDir": "/home/ikqa/robot/rf-katas/setup/browser/traces/14578bde-675b-4c29-83a5-7085d99898e4"}</msg>
+<msg timestamp="20231017 15:57:41.334" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":false,"chromiumSandbox":false,"devtools":false,"handleSIGHUP":true,"handleSIGINT":true,"handleSIGTERM":true,"slowMo":0,"timeout":30000,"tracesDir":"/home/ikqa/robot/rf-katas/setup/browser/traces/14578bde-675b-4c29-83a5-7085d99898e4"}</msg>
+<status status="PASS" starttime="20231017 15:57:41.067" endtime="20231017 15:57:41.334"/>
+</kw>
+<kw name="New Page" library="Browser">
+<arg>${URL}</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Open a new Page.</doc>
+<msg timestamp="20231017 15:57:41.616" level="INFO">Successfully initialized new page object and opened url: http://localhost:7272</msg>
+<msg timestamp="20231017 15:57:41.616" level="INFO">No context was open. New context was automatically opened when this page is created.</msg>
+<status status="PASS" starttime="20231017 15:57:41.334" endtime="20231017 15:57:41.617"/>
+</kw>
+<status status="PASS" starttime="20231017 15:57:41.067" endtime="20231017 15:57:41.617"/>
+</kw>
+<kw name="Enter Username">
+<kw name="Fill Text" library="Browser">
+<arg>id=username_field</arg>
+<arg>${USERNAME}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
+<msg timestamp="20231017 15:57:41.618" level="INFO">Fills the text 'demo' in the given field.</msg>
+<status status="PASS" starttime="20231017 15:57:41.618" endtime="20231017 15:57:41.666"/>
+</kw>
+<status status="PASS" starttime="20231017 15:57:41.617" endtime="20231017 15:57:41.666"/>
+</kw>
+<kw name="Enter Password">
+<kw name="Fill Secret" library="Browser">
+<arg>id=password_field</arg>
+<arg>${PASSWORD}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Fills the given secret from ``variable_name`` into the
+text field found by ``selector``.</doc>
+<status status="FAIL" starttime="20231017 15:57:41.666" endtime="20231017 15:57:41.669"/>
+</kw>
+<status status="FAIL" starttime="20231017 15:57:41.666" endtime="20231017 15:57:41.670"/>
+</kw>
+<kw name="Submit Login Form">
+<status status="NOT RUN" starttime="20231017 15:57:41.670" endtime="20231017 15:57:41.670"/>
+</kw>
+<kw name="Verify That Welcome Page Is Visible">
+<status status="NOT RUN" starttime="20231017 15:57:41.671" endtime="20231017 15:57:41.671"/>
+</kw>
+<status status="FAIL" starttime="20231017 15:57:41.063" endtime="20231017 15:57:41.671">ValueError: Direct assignment of values or variables as 'secret' is not allowed. Use special variable syntax ($var instead of ${var}) to prevent variable values from being spoiled.</status>
+</test>
+<status status="FAIL" starttime="20231017 15:57:40.595" endtime="20231017 15:57:41.730"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Login">Login</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

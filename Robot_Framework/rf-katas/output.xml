@@ -1,0 +1,512 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 5.0.1 (Python 3.11.3 on linux)" generated="20231023 15:16:09.977" rpa="false" schemaversion="3">
+<suite id="s1" name="Invalid Login" source="/home/ikqa/robot/rf-katas/robot/invalid_login.robot">
+<test id="s1-t1" name="Error Page Is Visible When Using Incorrect Credentials_1" line="15">
+<kw name="Open Browser To Login Page" library="common" type="SETUP">
+<kw name="New Browser" library="Browser">
+<arg>headless=${FALSE}</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Create a new playwright Browser with specified options.</doc>
+<msg timestamp="20231023 15:16:10.435" level="INFO">{"browser": "chromium", "headless": false, "chromiumSandbox": false, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 0.0, "timeout": 30000.0, "tracesDir": "/home/ikqa/robot/rf-katas/browser/traces/7553bd8d-78cb-4c58-b84e-7192485a26fa"}</msg>
+<msg timestamp="20231023 15:16:10.693" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":false,"chromiumSandbox":false,"devtools":false,"handleSIGHUP":true,"handleSIGINT":true,"handleSIGTERM":true,"slowMo":0,"timeout":30000,"tracesDir":"/home/ikqa/robot/rf-katas/browser/traces/7553bd8d-78cb-4c58-b84e-7192485a26fa"}</msg>
+<status status="PASS" starttime="20231023 15:16:10.435" endtime="20231023 15:16:10.693"/>
+</kw>
+<kw name="New Page" library="Browser">
+<arg>${URL}</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Open a new Page.</doc>
+<msg timestamp="20231023 15:16:10.951" level="INFO">Successfully initialized new page object and opened url: http://localhost:7272/</msg>
+<msg timestamp="20231023 15:16:10.951" level="INFO">No context was open. New context was automatically opened when this page is created.</msg>
+<status status="PASS" starttime="20231023 15:16:10.693" endtime="20231023 15:16:10.951"/>
+</kw>
+<status status="PASS" starttime="20231023 15:16:10.434" endtime="20231023 15:16:10.952"/>
+</kw>
+<kw name="Error Page Is Visible When Using Incorrect Credentials" library="common">
+<arg>${EMPTY}</arg>
+<arg>${EMPTY}</arg>
+<kw name="Enter Username" library="common">
+<arg>${username}</arg>
+<kw name="Fill Text" library="Browser">
+<arg>id=username_field</arg>
+<arg>${USERNAME}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
+<msg timestamp="20231023 15:16:10.955" level="INFO">Fills the text '' in the given field.</msg>
+<status status="PASS" starttime="20231023 15:16:10.955" endtime="20231023 15:16:10.998"/>
+</kw>
+<status status="PASS" starttime="20231023 15:16:10.955" endtime="20231023 15:16:10.998"/>
+</kw>
+<kw name="Enter Password" library="common">
+<arg>${password}</arg>
+<kw name="Fill Text" library="Browser">
+<arg>id=password_field</arg>
+<arg>${PASSWORD}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
+<msg timestamp="20231023 15:16:10.999" level="INFO">Fills the text '' in the given field.</msg>
+<status status="PASS" starttime="20231023 15:16:10.999" endtime="20231023 15:16:11.016"/>
+</kw>
+<status status="PASS" starttime="20231023 15:16:10.998" endtime="20231023 15:16:11.016"/>
+</kw>
+<kw name="Submit Login Form" library="common">
+<kw name="Click" library="Browser">
+<arg>id=login_button</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" starttime="20231023 15:16:11.017" endtime="20231023 15:16:11.097"/>
+</kw>
+<status status="PASS" starttime="20231023 15:16:11.016" endtime="20231023 15:16:11.097"/>
+</kw>
+<kw name="Verify That Error Page Is Visible" library="common">
+<kw name="Get Text" library="Browser">
+<arg>body</arg>
+<arg>contains</arg>
+<arg>Error Page</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns text attribute of the element found by ``selector``.</doc>
+<msg timestamp="20231023 15:16:11.167" level="INFO">Text: 'Error Page\n\nLogin failed. Invalid user name and/or password.'</msg>
+<status status="PASS" starttime="20231023 15:16:11.098" endtime="20231023 15:16:11.167"/>
+</kw>
+<kw name="Get Url" library="Browser">
+<arg>==</arg>
+<arg>${URL}error.html</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns the current URL.</doc>
+<status status="PASS" starttime="20231023 15:16:11.168" endtime="20231023 15:16:11.172"/>
+</kw>
+<kw name="Get Title" library="Browser">
+<arg>==</arg>
+<arg>Error Page</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns the title of the current page.</doc>
+<msg timestamp="20231023 15:16:11.176" level="INFO">Title: 'Error Page'</msg>
+<status status="PASS" starttime="20231023 15:16:11.172" endtime="20231023 15:16:11.176"/>
+</kw>
+<status status="PASS" starttime="20231023 15:16:11.097" endtime="20231023 15:16:11.177"/>
+</kw>
+<status status="PASS" starttime="20231023 15:16:10.952" endtime="20231023 15:16:11.177"/>
+</kw>
+<status status="PASS" starttime="20231023 15:16:10.430" endtime="20231023 15:16:11.177"/>
+</test>
+<test id="s1-t2" name="Error Page Is Visible When Using Incorrect Credentials_2" line="17">
+<kw name="Open Browser To Login Page" library="common" type="SETUP">
+<kw name="New Browser" library="Browser">
+<arg>headless=${FALSE}</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Create a new playwright Browser with specified options.</doc>
+<msg timestamp="20231023 15:16:11.246" level="INFO">Switching browser to browser=ea15e0e0-1ed6-4bf9-a205-ff34f8234c34</msg>
+<msg timestamp="20231023 15:16:11.249" level="INFO">Successfully changed active browser: browser=ea15e0e0-1ed6-4bf9-a205-ff34f8234c34</msg>
+<msg timestamp="20231023 15:16:11.249" level="INFO">Reusing existing browser with id: browser=ea15e0e0-1ed6-4bf9-a205-ff34f8234c34</msg>
+<status status="PASS" starttime="20231023 15:16:11.246" endtime="20231023 15:16:11.249"/>
+</kw>
+<kw name="New Page" library="Browser">
+<arg>${URL}</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Open a new Page.</doc>
+<msg timestamp="20231023 15:16:11.411" level="INFO">Successfully initialized new page object and opened url: http://localhost:7272/</msg>
+<msg timestamp="20231023 15:16:11.412" level="INFO">No context was open. New context was automatically opened when this page is created.</msg>
+<status status="PASS" starttime="20231023 15:16:11.250" endtime="20231023 15:16:11.413"/>
+</kw>
+<status status="PASS" starttime="20231023 15:16:11.246" endtime="20231023 15:16:11.413"/>
+</kw>
+<kw name="Error Page Is Visible When Using Incorrect Credentials" library="common">
+<arg>${SPACE*2}</arg>
+<arg>${EMPTY}</arg>
+<kw name="Enter Username" library="common">
+<arg>${username}</arg>
+<kw name="Fill Text" library="Browser">
+<arg>id=username_field</arg>
+<arg>${USERNAME}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
+<msg timestamp="20231023 15:16:11.420" level="INFO">Fills the text '  ' in the given field.</msg>
+<status status="PASS" starttime="20231023 15:16:11.419" endtime="20231023 15:16:11.477"/>
+</kw>
+<status status="PASS" starttime="20231023 15:16:11.415" endtime="20231023 15:16:11.478"/>
+</kw>
+<kw name="Enter Password" library="common">
+<arg>${password}</arg>
+<kw name="Fill Text" library="Browser">
+<arg>id=password_field</arg>
+<arg>${PASSWORD}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
+<msg timestamp="20231023 15:16:11.479" level="INFO">Fills the text '' in the given field.</msg>
+<status status="PASS" starttime="20231023 15:16:11.479" endtime="20231023 15:16:11.501"/>
+</kw>
+<status status="PASS" starttime="20231023 15:16:11.478" endtime="20231023 15:16:11.501"/>
+</kw>
+<kw name="Submit Login Form" library="common">
+<kw name="Click" library="Browser">
+<arg>id=login_button</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" starttime="20231023 15:16:11.502" endtime="20231023 15:16:11.573"/>
+</kw>
+<status status="PASS" starttime="20231023 15:16:11.502" endtime="20231023 15:16:11.573"/>
+</kw>
+<kw name="Verify That Error Page Is Visible" library="common">
+<kw name="Get Text" library="Browser">
+<arg>body</arg>
+<arg>contains</arg>
+<arg>Error Page</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns text attribute of the element found by ``selector``.</doc>
+<msg timestamp="20231023 15:16:11.608" level="INFO">Text: 'Error Page\n\nLogin failed. Invalid user name and/or password.'</msg>
+<status status="PASS" starttime="20231023 15:16:11.574" endtime="20231023 15:16:11.608"/>
+</kw>
+<kw name="Get Url" library="Browser">
+<arg>==</arg>
+<arg>${URL}error.html</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns the current URL.</doc>
+<status status="PASS" starttime="20231023 15:16:11.609" endtime="20231023 15:16:11.611"/>
+</kw>
+<kw name="Get Title" library="Browser">
+<arg>==</arg>
+<arg>Error Page</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns the title of the current page.</doc>
+<msg timestamp="20231023 15:16:11.615" level="INFO">Title: 'Error Page'</msg>
+<status status="PASS" starttime="20231023 15:16:11.611" endtime="20231023 15:16:11.615"/>
+</kw>
+<status status="PASS" starttime="20231023 15:16:11.573" endtime="20231023 15:16:11.615"/>
+</kw>
+<status status="PASS" starttime="20231023 15:16:11.413" endtime="20231023 15:16:11.615"/>
+</kw>
+<status status="PASS" starttime="20231023 15:16:11.242" endtime="20231023 15:16:11.616"/>
+</test>
+<test id="s1-t3" name="Error Page Is Visible When Using Incorrect Credentials_3" line="19">
+<kw name="Open Browser To Login Page" library="common" type="SETUP">
+<kw name="New Browser" library="Browser">
+<arg>headless=${FALSE}</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Create a new playwright Browser with specified options.</doc>
+<msg timestamp="20231023 15:16:11.668" level="INFO">Switching browser to browser=ea15e0e0-1ed6-4bf9-a205-ff34f8234c34</msg>
+<msg timestamp="20231023 15:16:11.670" level="INFO">Successfully changed active browser: browser=ea15e0e0-1ed6-4bf9-a205-ff34f8234c34</msg>
+<msg timestamp="20231023 15:16:11.670" level="INFO">Reusing existing browser with id: browser=ea15e0e0-1ed6-4bf9-a205-ff34f8234c34</msg>
+<status status="PASS" starttime="20231023 15:16:11.668" endtime="20231023 15:16:11.670"/>
+</kw>
+<kw name="New Page" library="Browser">
+<arg>${URL}</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Open a new Page.</doc>
+<msg timestamp="20231023 15:16:11.808" level="INFO">Successfully initialized new page object and opened url: http://localhost:7272/</msg>
+<msg timestamp="20231023 15:16:11.808" level="INFO">No context was open. New context was automatically opened when this page is created.</msg>
+<status status="PASS" starttime="20231023 15:16:11.670" endtime="20231023 15:16:11.808"/>
+</kw>
+<status status="PASS" starttime="20231023 15:16:11.667" endtime="20231023 15:16:11.808"/>
+</kw>
+<kw name="Error Page Is Visible When Using Incorrect Credentials" library="common">
+<arg>${SPACE*2}</arg>
+<arg>${SPACE*2}</arg>
+<kw name="Enter Username" library="common">
+<arg>${username}</arg>
+<kw name="Fill Text" library="Browser">
+<arg>id=username_field</arg>
+<arg>${USERNAME}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
+<msg timestamp="20231023 15:16:11.812" level="INFO">Fills the text '  ' in the given field.</msg>
+<status status="PASS" starttime="20231023 15:16:11.811" endtime="20231023 15:16:11.873"/>
+</kw>
+<status status="PASS" starttime="20231023 15:16:11.811" endtime="20231023 15:16:11.873"/>
+</kw>
+<kw name="Enter Password" library="common">
+<arg>${password}</arg>
+<kw name="Fill Text" library="Browser">
+<arg>id=password_field</arg>
+<arg>${PASSWORD}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
+<msg timestamp="20231023 15:16:11.875" level="INFO">Fills the text '  ' in the given field.</msg>
+<status status="PASS" starttime="20231023 15:16:11.874" endtime="20231023 15:16:11.898"/>
+</kw>
+<status status="PASS" starttime="20231023 15:16:11.874" endtime="20231023 15:16:11.899"/>
+</kw>
+<kw name="Submit Login Form" library="common">
+<kw name="Click" library="Browser">
+<arg>id=login_button</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" starttime="20231023 15:16:11.900" endtime="20231023 15:16:11.973"/>
+</kw>
+<status status="PASS" starttime="20231023 15:16:11.899" endtime="20231023 15:16:11.973"/>
+</kw>
+<kw name="Verify That Error Page Is Visible" library="common">
+<kw name="Get Text" library="Browser">
+<arg>body</arg>
+<arg>contains</arg>
+<arg>Error Page</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns text attribute of the element found by ``selector``.</doc>
+<msg timestamp="20231023 15:16:12.009" level="INFO">Text: 'Error Page\n\nLogin failed. Invalid user name and/or password.'</msg>
+<status status="PASS" starttime="20231023 15:16:11.974" endtime="20231023 15:16:12.009"/>
+</kw>
+<kw name="Get Url" library="Browser">
+<arg>==</arg>
+<arg>${URL}error.html</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns the current URL.</doc>
+<status status="PASS" starttime="20231023 15:16:12.009" endtime="20231023 15:16:12.011"/>
+</kw>
+<kw name="Get Title" library="Browser">
+<arg>==</arg>
+<arg>Error Page</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns the title of the current page.</doc>
+<msg timestamp="20231023 15:16:12.015" level="INFO">Title: 'Error Page'</msg>
+<status status="PASS" starttime="20231023 15:16:12.011" endtime="20231023 15:16:12.015"/>
+</kw>
+<status status="PASS" starttime="20231023 15:16:11.973" endtime="20231023 15:16:12.015"/>
+</kw>
+<status status="PASS" starttime="20231023 15:16:11.809" endtime="20231023 15:16:12.016"/>
+</kw>
+<status status="PASS" starttime="20231023 15:16:11.664" endtime="20231023 15:16:12.016"/>
+</test>
+<test id="s1-t4" name="Error Page Is Visible When Using Incorrect Credentials_4" line="21">
+<kw name="Open Browser To Login Page" library="common" type="SETUP">
+<kw name="New Browser" library="Browser">
+<arg>headless=${FALSE}</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Create a new playwright Browser with specified options.</doc>
+<msg timestamp="20231023 15:16:12.064" level="INFO">Switching browser to browser=ea15e0e0-1ed6-4bf9-a205-ff34f8234c34</msg>
+<msg timestamp="20231023 15:16:12.066" level="INFO">Successfully changed active browser: browser=ea15e0e0-1ed6-4bf9-a205-ff34f8234c34</msg>
+<msg timestamp="20231023 15:16:12.066" level="INFO">Reusing existing browser with id: browser=ea15e0e0-1ed6-4bf9-a205-ff34f8234c34</msg>
+<status status="PASS" starttime="20231023 15:16:12.064" endtime="20231023 15:16:12.066"/>
+</kw>
+<kw name="New Page" library="Browser">
+<arg>${URL}</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Open a new Page.</doc>
+<msg timestamp="20231023 15:16:12.243" level="INFO">Successfully initialized new page object and opened url: http://localhost:7272/</msg>
+<msg timestamp="20231023 15:16:12.243" level="INFO">No context was open. New context was automatically opened when this page is created.</msg>
+<status status="PASS" starttime="20231023 15:16:12.067" endtime="20231023 15:16:12.244"/>
+</kw>
+<status status="PASS" starttime="20231023 15:16:12.063" endtime="20231023 15:16:12.244"/>
+</kw>
+<kw name="Error Page Is Visible When Using Incorrect Credentials" library="common">
+<arg>${USERNAME}</arg>
+<arg>${EMPTY}</arg>
+<kw name="Enter Username" library="common">
+<arg>${username}</arg>
+<kw name="Fill Text" library="Browser">
+<arg>id=username_field</arg>
+<arg>${USERNAME}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
+<msg timestamp="20231023 15:16:12.251" level="INFO">Fills the text 'demo' in the given field.</msg>
+<status status="PASS" starttime="20231023 15:16:12.251" endtime="20231023 15:16:12.309"/>
+</kw>
+<status status="PASS" starttime="20231023 15:16:12.250" endtime="20231023 15:16:12.309"/>
+</kw>
+<kw name="Enter Password" library="common">
+<arg>${password}</arg>
+<kw name="Fill Text" library="Browser">
+<arg>id=password_field</arg>
+<arg>${PASSWORD}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
+<msg timestamp="20231023 15:16:12.311" level="INFO">Fills the text '' in the given field.</msg>
+<status status="PASS" starttime="20231023 15:16:12.310" endtime="20231023 15:16:12.336"/>
+</kw>
+<status status="PASS" starttime="20231023 15:16:12.310" endtime="20231023 15:16:12.336"/>
+</kw>
+<kw name="Submit Login Form" library="common">
+<kw name="Click" library="Browser">
+<arg>id=login_button</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" starttime="20231023 15:16:12.336" endtime="20231023 15:16:12.424"/>
+</kw>
+<status status="PASS" starttime="20231023 15:16:12.336" endtime="20231023 15:16:12.424"/>
+</kw>
+<kw name="Verify That Error Page Is Visible" library="common">
+<kw name="Get Text" library="Browser">
+<arg>body</arg>
+<arg>contains</arg>
+<arg>Error Page</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns text attribute of the element found by ``selector``.</doc>
+<msg timestamp="20231023 15:16:12.459" level="INFO">Text: 'Error Page\n\nLogin failed. Invalid user name and/or password.'</msg>
+<status status="PASS" starttime="20231023 15:16:12.425" endtime="20231023 15:16:12.459"/>
+</kw>
+<kw name="Get Url" library="Browser">
+<arg>==</arg>
+<arg>${URL}error.html</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns the current URL.</doc>
+<status status="PASS" starttime="20231023 15:16:12.459" endtime="20231023 15:16:12.461"/>
+</kw>
+<kw name="Get Title" library="Browser">
+<arg>==</arg>
+<arg>Error Page</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns the title of the current page.</doc>
+<msg timestamp="20231023 15:16:12.465" level="INFO">Title: 'Error Page'</msg>
+<status status="PASS" starttime="20231023 15:16:12.462" endtime="20231023 15:16:12.465"/>
+</kw>
+<status status="PASS" starttime="20231023 15:16:12.424" endtime="20231023 15:16:12.465"/>
+</kw>
+<status status="PASS" starttime="20231023 15:16:12.246" endtime="20231023 15:16:12.466"/>
+</kw>
+<status status="PASS" starttime="20231023 15:16:12.060" endtime="20231023 15:16:12.466"/>
+</test>
+<test id="s1-t5" name="Error Page Is Visible When Using Incorrect Credentials_5" line="23">
+<kw name="Open Browser To Login Page" library="common" type="SETUP">
+<kw name="New Browser" library="Browser">
+<arg>headless=${FALSE}</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Create a new playwright Browser with specified options.</doc>
+<msg timestamp="20231023 15:16:12.516" level="INFO">Switching browser to browser=ea15e0e0-1ed6-4bf9-a205-ff34f8234c34</msg>
+<msg timestamp="20231023 15:16:12.520" level="INFO">Successfully changed active browser: browser=ea15e0e0-1ed6-4bf9-a205-ff34f8234c34</msg>
+<msg timestamp="20231023 15:16:12.520" level="INFO">Reusing existing browser with id: browser=ea15e0e0-1ed6-4bf9-a205-ff34f8234c34</msg>
+<status status="PASS" starttime="20231023 15:16:12.516" endtime="20231023 15:16:12.520"/>
+</kw>
+<kw name="New Page" library="Browser">
+<arg>${URL}</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Open a new Page.</doc>
+<msg timestamp="20231023 15:16:12.656" level="INFO">Successfully initialized new page object and opened url: http://localhost:7272/</msg>
+<msg timestamp="20231023 15:16:12.656" level="INFO">No context was open. New context was automatically opened when this page is created.</msg>
+<status status="PASS" starttime="20231023 15:16:12.521" endtime="20231023 15:16:12.657"/>
+</kw>
+<status status="PASS" starttime="20231023 15:16:12.515" endtime="20231023 15:16:12.657"/>
+</kw>
+<kw name="Error Page Is Visible When Using Incorrect Credentials" library="common">
+<arg>${EMPTY}</arg>
+<arg>${PASSWORD}</arg>
+<kw name="Enter Username" library="common">
+<arg>${username}</arg>
+<kw name="Fill Text" library="Browser">
+<arg>id=username_field</arg>
+<arg>${USERNAME}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
+<msg timestamp="20231023 15:16:12.663" level="INFO">Fills the text '' in the given field.</msg>
+<status status="PASS" starttime="20231023 15:16:12.663" endtime="20231023 15:16:12.714"/>
+</kw>
+<status status="PASS" starttime="20231023 15:16:12.660" endtime="20231023 15:16:12.715"/>
+</kw>
+<kw name="Enter Password" library="common">
+<arg>${password}</arg>
+<kw name="Fill Text" library="Browser">
+<arg>id=password_field</arg>
+<arg>${PASSWORD}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
+<msg timestamp="20231023 15:16:12.716" level="INFO">Fills the text 'mode' in the given field.</msg>
+<status status="PASS" starttime="20231023 15:16:12.715" endtime="20231023 15:16:12.733"/>
+</kw>
+<status status="PASS" starttime="20231023 15:16:12.715" endtime="20231023 15:16:12.733"/>
+</kw>
+<kw name="Submit Login Form" library="common">
+<kw name="Click" library="Browser">
+<arg>id=login_button</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" starttime="20231023 15:16:12.734" endtime="20231023 15:16:12.814"/>
+</kw>
+<status status="PASS" starttime="20231023 15:16:12.734" endtime="20231023 15:16:12.815"/>
+</kw>
+<kw name="Verify That Error Page Is Visible" library="common">
+<kw name="Get Text" library="Browser">
+<arg>body</arg>
+<arg>contains</arg>
+<arg>Error Page</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns text attribute of the element found by ``selector``.</doc>
+<msg timestamp="20231023 15:16:12.852" level="INFO">Text: 'Error Page\n\nLogin failed. Invalid user name and/or password.'</msg>
+<status status="PASS" starttime="20231023 15:16:12.816" endtime="20231023 15:16:12.852"/>
+</kw>
+<kw name="Get Url" library="Browser">
+<arg>==</arg>
+<arg>${URL}error.html</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns the current URL.</doc>
+<status status="PASS" starttime="20231023 15:16:12.852" endtime="20231023 15:16:12.854"/>
+</kw>
+<kw name="Get Title" library="Browser">
+<arg>==</arg>
+<arg>Error Page</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns the title of the current page.</doc>
+<msg timestamp="20231023 15:16:12.857" level="INFO">Title: 'Error Page'</msg>
+<status status="PASS" starttime="20231023 15:16:12.854" endtime="20231023 15:16:12.857"/>
+</kw>
+<status status="PASS" starttime="20231023 15:16:12.815" endtime="20231023 15:16:12.857"/>
+</kw>
+<status status="PASS" starttime="20231023 15:16:12.657" endtime="20231023 15:16:12.857"/>
+</kw>
+<status status="PASS" starttime="20231023 15:16:12.511" endtime="20231023 15:16:12.858"/>
+</test>
+<status status="PASS" starttime="20231023 15:16:09.978" endtime="20231023 15:16:12.908"/>
+</suite>
+<statistics>
+<total>
+<stat pass="5" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="5" fail="0" skip="0" id="s1" name="Invalid Login">Invalid Login</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

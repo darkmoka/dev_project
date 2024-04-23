@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0 (Python 3.10.9 on linux)" generated="2024-04-16T16:58:30.779228" rpa="false" schemaversion="5">
+<suite id="s1" name="Login" source="/home/ikqa/robot/rf-katas/robot/login.robot">
+<test id="s1-t1" name="Welcome Page Should Be Visible After Successful Login" line="12">
+<kw name="Open Browser To Login Page" owner="common">
+<kw name="New Browser" owner="Browser">
+<msg time="2024-04-16T16:58:31.252232" level="INFO">{"browser": "chromium", "headless": false, "chromiumSandbox": false, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 0.0, "timeout": 30000.0, "tracesDir": "/home/ikqa/robot/rf-katas/robot/browser/traces/4fec211c-19b0-4c95-a390-c4656dc232b0"}</msg>
+<msg time="2024-04-16T16:58:31.463867" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":false,"chromiumSandbox":false,"devtools":false,"handleSIGHUP":true,"handleSIGINT":true,"handleSIGTERM":true,"slowMo":0,"timeout":30000,"tracesDir":"/home/ikqa/robot/rf-katas/robot/browser/traces/4fec211c-19b0-4c95-a390-c4656dc232b0"}</msg>
+<arg>headless=${FALSE}</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Create a new playwright Browser with specified options.</doc>
+<status status="PASS" start="2024-04-16T16:58:31.250914" elapsed="0.213178"/>
+</kw>
+<kw name="New Page" owner="Browser">
+<msg time="2024-04-16T16:58:31.772545" level="INFO">Successfully initialized new page object and opened url: http://localhost:7272/</msg>
+<msg time="2024-04-16T16:58:31.772742" level="INFO">No context was open. New context was automatically opened when this page is created.</msg>
+<arg>${URL}</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Open a new Page.</doc>
+<status status="PASS" start="2024-04-16T16:58:31.464410" elapsed="0.308699"/>
+</kw>
+<status status="PASS" start="2024-04-16T16:58:31.249589" elapsed="0.523830"/>
+</kw>
+<kw name="Enter Username" owner="common">
+<kw name="Fill Text" owner="Browser">
+<msg time="2024-04-16T16:58:31.775735" level="INFO">Fills the text 'demo' in the given field.</msg>
+<msg time="2024-04-16T16:58:31.895790" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="browser/screenshot/fail-screenshot-1.png" target="_blank"&gt;&lt;img src="browser/screenshot/fail-screenshot-1.png" width="800px"/&gt;&lt;/a&gt;</msg>
+<msg time="2024-04-16T16:58:31.895935" level="INFO">See also file:///home/ikqa/robot/rf-katas/robot/playwright-log.txt for additional details.</msg>
+<msg time="2024-04-16T16:58:31.896104" level="FAIL">TypeError: selector.replaceAll is not a function</msg>
+<arg>id=username_field</arg>
+<arg>${USERNAME}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
+<status status="FAIL" start="2024-04-16T16:58:31.774795" elapsed="0.122569">TypeError: selector.replaceAll is not a function</status>
+</kw>
+<arg>${USERNAME}</arg>
+<status status="FAIL" start="2024-04-16T16:58:31.774046" elapsed="0.123571">TypeError: selector.replaceAll is not a function</status>
+</kw>
+<kw name="Enter Password" owner="common">
+<arg>${PASSWORD}</arg>
+<status status="NOT RUN" start="2024-04-16T16:58:31.897941" elapsed="0.000051"/>
+</kw>
+<kw name="Submit Login Form" owner="common">
+<status status="NOT RUN" start="2024-04-16T16:58:31.898221" elapsed="0.000041"/>
+</kw>
+<kw name="Verify That Welcome Page Is Visible" owner="common">
+<status status="NOT RUN" start="2024-04-16T16:58:31.898456" elapsed="0.000038"/>
+</kw>
+<kw name="Do a Successful logout" owner="common" type="TEARDOWN">
+<kw name="Verify That Welcome Page Is Visible" owner="common">
+<kw name="Get Text" owner="Browser">
+<msg time="2024-04-16T16:58:33.026422" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="browser/screenshot/fail-screenshot-2.png" target="_blank"&gt;&lt;img src="browser/screenshot/fail-screenshot-2.png" width="800px"/&gt;&lt;/a&gt;</msg>
+<msg time="2024-04-16T16:58:33.026526" level="INFO">See also file:///home/ikqa/robot/rf-katas/robot/playwright-log.txt for additional details.</msg>
+<msg time="2024-04-16T16:58:33.026673" level="FAIL">TypeError: selector.replaceAll is not a function</msg>
+<arg>body</arg>
+<arg>contains</arg>
+<arg>Welcome Page</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns text attribute of the element found by ``selector``.</doc>
+<status status="FAIL" start="2024-04-16T16:58:31.899419" elapsed="1.127825">TypeError: selector.replaceAll is not a function</status>
+</kw>
+<kw name="Get Url" owner="Browser">
+<msg time="2024-04-16T16:58:34.124274" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="browser/screenshot/fail-screenshot-3.png" target="_blank"&gt;&lt;img src="browser/screenshot/fail-screenshot-3.png" width="800px"/&gt;&lt;/a&gt;</msg>
+<msg time="2024-04-16T16:58:34.124424" level="INFO">See also file:///home/ikqa/robot/rf-katas/robot/playwright-log.txt for additional details.</msg>
+<msg time="2024-04-16T16:58:34.124685" level="FAIL">URL 'http://localhost:7272/' (str) should be 'http://localhost:7272/welcome.html' (str)</msg>
+<arg>==</arg>
+<arg>${URL}welcome.html</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns the current URL.</doc>
+<status status="FAIL" start="2024-04-16T16:58:33.027498" elapsed="1.097795">URL 'http://localhost:7272/' (str) should be 'http://localhost:7272/welcome.html' (str)</status>
+</kw>
+<kw name="Get Title" owner="Browser">
+<msg time="2024-04-16T16:58:35.137070" level="INFO">Title: 'Login Page'</msg>
+<msg time="2024-04-16T16:58:35.231146" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="browser/screenshot/fail-screenshot-4.png" target="_blank"&gt;&lt;img src="browser/screenshot/fail-screenshot-4.png" width="800px"/&gt;&lt;/a&gt;</msg>
+<msg time="2024-04-16T16:58:35.231250" level="INFO">See also file:///home/ikqa/robot/rf-katas/robot/playwright-log.txt for additional details.</msg>
+<msg time="2024-04-16T16:58:35.231390" level="FAIL">Title 'Login Page' (str) should be 'Welcome Page' (str)</msg>
+<arg>==</arg>
+<arg>Welcome Page</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns the title of the current page.</doc>
+<status status="FAIL" start="2024-04-16T16:58:34.125699" elapsed="1.105893">Title 'Login Page' (str) should be 'Welcome Page' (str)</status>
+</kw>
+<status status="FAIL" start="2024-04-16T16:58:31.899151" elapsed="3.332646">Several failures occurred:
+
+1) TypeError: selector.replaceAll is not a function
+
+2) URL 'http://localhost:7272/' (str) should be 'http://localhost:7272/welcome.html' (str)
+
+3) Title 'Login Page' (str) should be 'Welcome Page' (str)</status>
+</kw>
+<kw name="Do Successful logout" owner="common">
+<kw name="Click" owner="Browser">
+<msg time="2024-04-16T16:58:35.232805" level="INFO">Clicks the element ''logout''.</msg>
+<msg time="2024-04-16T16:58:35.324129" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="browser/screenshot/fail-screenshot-5.png" target="_blank"&gt;&lt;img src="browser/screenshot/fail-screenshot-5.png" width="800px"/&gt;&lt;/a&gt;</msg>
+<msg time="2024-04-16T16:58:35.324227" level="INFO">See also file:///home/ikqa/robot/rf-katas/robot/playwright-log.txt for additional details.</msg>
+<msg time="2024-04-16T16:58:35.324346" level="FAIL">TypeError: selector.replaceAll is not a function</msg>
+<arg>'logout'</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="FAIL" start="2024-04-16T16:58:35.232380" elapsed="0.092142">TypeError: selector.replaceAll is not a function</status>
+</kw>
+<status status="FAIL" start="2024-04-16T16:58:35.232038" elapsed="0.092670">TypeError: selector.replaceAll is not a function</status>
+</kw>
+<kw name="Verify That Login Page Is Visible" owner="common">
+<kw name="Get Url" owner="Browser">
+<arg>==</arg>
+<arg>${URL}</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns the current URL.</doc>
+<status status="PASS" start="2024-04-16T16:58:35.325315" elapsed="0.002058"/>
+</kw>
+<kw name="Get Title" owner="Browser">
+<msg time="2024-04-16T16:58:35.331169" level="INFO">Title: 'Login Page'</msg>
+<arg>==</arg>
+<arg>Login Page</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns the title of the current page.</doc>
+<status status="PASS" start="2024-04-16T16:58:35.327623" elapsed="0.003651"/>
+</kw>
+<status status="PASS" start="2024-04-16T16:58:35.324970" elapsed="0.006442"/>
+</kw>
+<status status="FAIL" start="2024-04-16T16:58:31.898807" elapsed="3.432743">Several failures occurred:
+
+1) TypeError: selector.replaceAll is not a function
+
+2) URL 'http://localhost:7272/' (str) should be 'http://localhost:7272/welcome.html' (str)
+
+3) Title 'Login Page' (str) should be 'Welcome Page' (str)
+
+4) TypeError: selector.replaceAll is not a function</status>
+</kw>
+<status status="FAIL" start="2024-04-16T16:58:31.244756" elapsed="4.086936">TypeError: selector.replaceAll is not a function
+
+Also teardown failed:
+Several failures occurred:
+
+1) TypeError: selector.replaceAll is not a function
+
+2) URL 'http://localhost:7272/' (str) should be 'http://localhost:7272/welcome.html' (str)
+
+3) Title 'Login Page' (str) should be 'Welcome Page' (str)
+
+4) TypeError: selector.replaceAll is not a function</status>
+</test>
+<test id="s1-t2" name="Login Form Should Be Visible After Successful Logout" line="20">
+<kw name="Do a Successful Login" owner="common" type="SETUP">
+<kw name="Open Browser To Login Page" owner="common">
+<kw name="New Browser" owner="Browser">
+<msg time="2024-04-16T16:58:35.388799" level="INFO">Switching browser to browser=f8afb2c0-b10c-4243-90ea-987b6c2f3b77</msg>
+<msg time="2024-04-16T16:58:35.390600" level="INFO">Successfully changed active browser: browser=f8afb2c0-b10c-4243-90ea-987b6c2f3b77</msg>
+<msg time="2024-04-16T16:58:35.390708" level="INFO">Reusing existing browser with id: browser=f8afb2c0-b10c-4243-90ea-987b6c2f3b77</msg>
+<arg>headless=${FALSE}</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Create a new playwright Browser with specified options.</doc>
+<status status="PASS" start="2024-04-16T16:58:35.388335" elapsed="0.002548"/>
+</kw>
+<kw name="New Page" owner="Browser">
+<msg time="2024-04-16T16:58:35.527822" level="INFO">Successfully initialized new page object and opened url: http://localhost:7272/</msg>
+<msg time="2024-04-16T16:58:35.527950" level="INFO">No context was open. New context was automatically opened when this page is created.</msg>
+<arg>${URL}</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Open a new Page.</doc>
+<status status="PASS" start="2024-04-16T16:58:35.391188" elapsed="0.137003"/>
+</kw>
+<status status="PASS" start="2024-04-16T16:58:35.388017" elapsed="0.140404"/>
+</kw>
+<kw name="Enter Username" owner="common">
+<kw name="Fill Text" owner="Browser">
+<msg time="2024-04-16T16:58:35.531747" level="INFO">Fills the text 'demo' in the given field.</msg>
+<msg time="2024-04-16T16:58:35.663653" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="browser/screenshot/fail-screenshot-6.png" target="_blank"&gt;&lt;img src="browser/screenshot/fail-screenshot-6.png" width="800px"/&gt;&lt;/a&gt;</msg>
+<msg time="2024-04-16T16:58:35.663773" level="INFO">See also file:///home/ikqa/robot/rf-katas/robot/playwright-log.txt for additional details.</msg>
+<msg time="2024-04-16T16:58:35.663909" level="FAIL">TypeError: selector.replaceAll is not a function</msg>
+<arg>id=username_field</arg>
+<arg>${USERNAME}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
+<status status="FAIL" start="2024-04-16T16:58:35.529397" elapsed="0.134731">TypeError: selector.replaceAll is not a function</status>
+</kw>
+<arg>${USERNAME}</arg>
+<status status="FAIL" start="2024-04-16T16:58:35.528745" elapsed="0.135576">TypeError: selector.replaceAll is not a function</status>
+</kw>
+<kw name="Enter Password" owner="common">
+<arg>${PASSWORD}</arg>
+<status status="NOT RUN" start="2024-04-16T16:58:35.664632" elapsed="0.000066"/>
+</kw>
+<kw name="Submit Login Form" owner="common">
+<status status="NOT RUN" start="2024-04-16T16:58:35.664890" elapsed="0.000038"/>
+</kw>
+<status status="FAIL" start="2024-04-16T16:58:35.387693" elapsed="0.277341">TypeError: selector.replaceAll is not a function</status>
+</kw>
+<status status="FAIL" start="2024-04-16T16:58:35.384635" elapsed="0.280683">Setup failed:
+TypeError: selector.replaceAll is not a function</status>
+</test>
+<status status="FAIL" start="2024-04-16T16:58:30.780023" elapsed="4.938386"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="2" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="2" skip="0" id="s1" name="Login">Login</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

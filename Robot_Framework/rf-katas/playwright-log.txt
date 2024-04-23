@@ -1,0 +1,237 @@
+{"level":30,"time":"2023-10-23T13:16:10.355Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"Listening on 35221"}
+{"level":30,"time":"2023-10-23T13:16:10.428Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2023-10-23T13:16:10.428Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2023-10-23T13:16:10.432Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2023-10-23T13:16:10.432Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2023-10-23T13:16:10.437Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2023-10-23T13:16:10.691Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"End of node method newBrowser"}
+{"level":30,"time":"2023-10-23T13:16:10.695Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"Start of node method newPage"}
+{"level":30,"time":"2023-10-23T13:16:10.695Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2023-10-23T13:16:10.705Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"Changed active context"}
+{"level":30,"time":"2023-10-23T13:16:10.916Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"Video path: undefined"}
+{"level":30,"time":"2023-10-23T13:16:10.917Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"Changed active page"}
+{"level":30,"time":"2023-10-23T13:16:10.947Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"End of node method newPage"}
+{"level":30,"time":"2023-10-23T13:16:10.956Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"Start of node method fillText"}
+{"level":30,"time":"2023-10-23T13:16:10.957Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"Strict mode is enabled, find Locator with id=username_field in page."}
+{"level":30,"time":"2023-10-23T13:16:10.996Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"End of node method fillText"}
+{"level":30,"time":"2023-10-23T13:16:11.000Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"Start of node method fillText"}
+{"level":30,"time":"2023-10-23T13:16:11.000Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"Strict mode is enabled, find Locator with id=password_field in page."}
+{"level":30,"time":"2023-10-23T13:16:11.013Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"End of node method fillText"}
+{"level":30,"time":"2023-10-23T13:16:11.018Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"Start of node method click"}
+{"level":30,"time":"2023-10-23T13:16:11.018Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"Strict mode is enabled, find Locator with id=login_button in page."}
+{"level":30,"time":"2023-10-23T13:16:11.094Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"End of node method click"}
+{"level":30,"time":"2023-10-23T13:16:11.101Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"Start of node method getText"}
+{"level":30,"time":"2023-10-23T13:16:11.101Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"Strict mode is enabled, find Locator with body in page."}
+{"level":30,"time":"2023-10-23T13:16:11.164Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"Retrieved text for element body containing Error Page\n\nLogin failed. Invalid user name and/or password."}
+{"level":30,"time":"2023-10-23T13:16:11.164Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"End of node method getText"}
+{"level":30,"time":"2023-10-23T13:16:11.185Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2023-10-23T13:16:11.188Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2023-10-23T13:16:11.191Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2023-10-23T13:16:11.193Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2023-10-23T13:16:11.197Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"Changed active context"}
+{"level":30,"time":"2023-10-23T13:16:11.197Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"Changing current active page: page=ad6bf7d3-cc72-4b6c-964d-db0f4902fd8c"}
+{"level":30,"time":"2023-10-23T13:16:11.197Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"Changed active page"}
+{"level":30,"time":"2023-10-23T13:16:11.201Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2023-10-23T13:16:11.203Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2023-10-23T13:16:11.204Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2023-10-23T13:16:11.205Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2023-10-23T13:16:11.207Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2023-10-23T13:16:11.207Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2023-10-23T13:16:11.209Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"Changing current active page: page=ad6bf7d3-cc72-4b6c-964d-db0f4902fd8c"}
+{"level":30,"time":"2023-10-23T13:16:11.209Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"Changed active page"}
+{"level":30,"time":"2023-10-23T13:16:11.214Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2023-10-23T13:16:11.216Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2023-10-23T13:16:11.219Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"Changed active context"}
+{"level":30,"time":"2023-10-23T13:16:11.220Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"Changing current active page: page=ad6bf7d3-cc72-4b6c-964d-db0f4902fd8c"}
+{"level":30,"time":"2023-10-23T13:16:11.220Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"Changed active page"}
+{"level":30,"time":"2023-10-23T13:16:11.222Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"Start of node method closeContext"}
+{"level":30,"time":"2023-10-23T13:16:11.231Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"Removed page=b9bd452d-120e-414d-ae3f-12f195753d49 from context=f24bc1d2-d6a6-4c7e-ac64-245e480e4438 page stack"}
+{"level":30,"time":"2023-10-23T13:16:11.240Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"End of node method closeContext"}
+{"level":30,"time":"2023-10-23T13:16:11.243Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2023-10-23T13:16:11.244Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2023-10-23T13:16:11.247Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2023-10-23T13:16:11.247Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2023-10-23T13:16:11.251Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"Start of node method newPage"}
+{"level":30,"time":"2023-10-23T13:16:11.251Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2023-10-23T13:16:11.256Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"Changed active context"}
+{"level":30,"time":"2023-10-23T13:16:11.332Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"Video path: undefined"}
+{"level":30,"time":"2023-10-23T13:16:11.332Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"Changed active page"}
+{"level":30,"time":"2023-10-23T13:16:11.407Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"End of node method newPage"}
+{"level":30,"time":"2023-10-23T13:16:11.425Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"Start of node method fillText"}
+{"level":30,"time":"2023-10-23T13:16:11.425Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"Strict mode is enabled, find Locator with id=username_field in page."}
+{"level":30,"time":"2023-10-23T13:16:11.476Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"End of node method fillText"}
+{"level":30,"time":"2023-10-23T13:16:11.480Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"Start of node method fillText"}
+{"level":30,"time":"2023-10-23T13:16:11.480Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"Strict mode is enabled, find Locator with id=password_field in page."}
+{"level":30,"time":"2023-10-23T13:16:11.500Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"End of node method fillText"}
+{"level":30,"time":"2023-10-23T13:16:11.503Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"Start of node method click"}
+{"level":30,"time":"2023-10-23T13:16:11.503Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"Strict mode is enabled, find Locator with id=login_button in page."}
+{"level":30,"time":"2023-10-23T13:16:11.571Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"End of node method click"}
+{"level":30,"time":"2023-10-23T13:16:11.575Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"Start of node method getText"}
+{"level":30,"time":"2023-10-23T13:16:11.575Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"Strict mode is enabled, find Locator with body in page."}
+{"level":30,"time":"2023-10-23T13:16:11.607Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"Retrieved text for element body containing Error Page\n\nLogin failed. Invalid user name and/or password."}
+{"level":30,"time":"2023-10-23T13:16:11.607Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"End of node method getText"}
+{"level":30,"time":"2023-10-23T13:16:11.618Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2023-10-23T13:16:11.619Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2023-10-23T13:16:11.621Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2023-10-23T13:16:11.622Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2023-10-23T13:16:11.624Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"Changed active context"}
+{"level":30,"time":"2023-10-23T13:16:11.624Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"Changing current active page: page=b0238df6-054a-40ca-92a7-7bc4da2b6551"}
+{"level":30,"time":"2023-10-23T13:16:11.624Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"Changed active page"}
+{"level":30,"time":"2023-10-23T13:16:11.627Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2023-10-23T13:16:11.629Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2023-10-23T13:16:11.631Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2023-10-23T13:16:11.632Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2023-10-23T13:16:11.635Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2023-10-23T13:16:11.635Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2023-10-23T13:16:11.637Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"Changing current active page: page=b0238df6-054a-40ca-92a7-7bc4da2b6551"}
+{"level":30,"time":"2023-10-23T13:16:11.637Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"Changed active page"}
+{"level":30,"time":"2023-10-23T13:16:11.640Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2023-10-23T13:16:11.641Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2023-10-23T13:16:11.643Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"Changed active context"}
+{"level":30,"time":"2023-10-23T13:16:11.643Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"Changing current active page: page=b0238df6-054a-40ca-92a7-7bc4da2b6551"}
+{"level":30,"time":"2023-10-23T13:16:11.643Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"Changed active page"}
+{"level":30,"time":"2023-10-23T13:16:11.647Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"Start of node method closeContext"}
+{"level":30,"time":"2023-10-23T13:16:11.653Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"Removed page=49f30593-866b-498e-acd5-326fed4db7b2 from context=951ab359-4f65-4694-b7bd-bf83c7b5c4b5 page stack"}
+{"level":30,"time":"2023-10-23T13:16:11.661Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"End of node method closeContext"}
+{"level":30,"time":"2023-10-23T13:16:11.665Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2023-10-23T13:16:11.666Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2023-10-23T13:16:11.668Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2023-10-23T13:16:11.668Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2023-10-23T13:16:11.671Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"Start of node method newPage"}
+{"level":30,"time":"2023-10-23T13:16:11.672Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2023-10-23T13:16:11.679Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"Changed active context"}
+{"level":30,"time":"2023-10-23T13:16:11.755Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"Video path: undefined"}
+{"level":30,"time":"2023-10-23T13:16:11.755Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"Changed active page"}
+{"level":30,"time":"2023-10-23T13:16:11.806Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"End of node method newPage"}
+{"level":30,"time":"2023-10-23T13:16:11.813Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"Start of node method fillText"}
+{"level":30,"time":"2023-10-23T13:16:11.813Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"Strict mode is enabled, find Locator with id=username_field in page."}
+{"level":30,"time":"2023-10-23T13:16:11.872Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"End of node method fillText"}
+{"level":30,"time":"2023-10-23T13:16:11.876Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"Start of node method fillText"}
+{"level":30,"time":"2023-10-23T13:16:11.876Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"Strict mode is enabled, find Locator with id=password_field in page."}
+{"level":30,"time":"2023-10-23T13:16:11.897Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"End of node method fillText"}
+{"level":30,"time":"2023-10-23T13:16:11.901Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"Start of node method click"}
+{"level":30,"time":"2023-10-23T13:16:11.901Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"Strict mode is enabled, find Locator with id=login_button in page."}
+{"level":30,"time":"2023-10-23T13:16:11.971Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"End of node method click"}
+{"level":30,"time":"2023-10-23T13:16:11.975Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"Start of node method getText"}
+{"level":30,"time":"2023-10-23T13:16:11.975Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"Strict mode is enabled, find Locator with body in page."}
+{"level":30,"time":"2023-10-23T13:16:12.007Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"Retrieved text for element body containing Error Page\n\nLogin failed. Invalid user name and/or password."}
+{"level":30,"time":"2023-10-23T13:16:12.007Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"End of node method getText"}
+{"level":30,"time":"2023-10-23T13:16:12.018Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2023-10-23T13:16:12.020Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2023-10-23T13:16:12.021Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2023-10-23T13:16:12.023Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2023-10-23T13:16:12.025Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"Changed active context"}
+{"level":30,"time":"2023-10-23T13:16:12.025Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"Changing current active page: page=17f6f832-a66b-4f6b-bd60-9f8a3407db3a"}
+{"level":30,"time":"2023-10-23T13:16:12.025Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"Changed active page"}
+{"level":30,"time":"2023-10-23T13:16:12.028Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2023-10-23T13:16:12.030Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2023-10-23T13:16:12.032Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2023-10-23T13:16:12.033Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2023-10-23T13:16:12.035Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2023-10-23T13:16:12.036Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2023-10-23T13:16:12.038Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"Changing current active page: page=17f6f832-a66b-4f6b-bd60-9f8a3407db3a"}
+{"level":30,"time":"2023-10-23T13:16:12.038Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"Changed active page"}
+{"level":30,"time":"2023-10-23T13:16:12.040Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2023-10-23T13:16:12.042Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2023-10-23T13:16:12.043Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"Changed active context"}
+{"level":30,"time":"2023-10-23T13:16:12.043Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"Changing current active page: page=17f6f832-a66b-4f6b-bd60-9f8a3407db3a"}
+{"level":30,"time":"2023-10-23T13:16:12.043Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"Changed active page"}
+{"level":30,"time":"2023-10-23T13:16:12.046Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"Start of node method closeContext"}
+{"level":30,"time":"2023-10-23T13:16:12.051Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"Removed page=d6686fa1-4d24-4df0-84cb-da686f22257d from context=c993116f-2f6f-4e9f-ace2-b9367c905e75 page stack"}
+{"level":30,"time":"2023-10-23T13:16:12.058Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"End of node method closeContext"}
+{"level":30,"time":"2023-10-23T13:16:12.061Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2023-10-23T13:16:12.061Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2023-10-23T13:16:12.065Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2023-10-23T13:16:12.065Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2023-10-23T13:16:12.068Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"Start of node method newPage"}
+{"level":30,"time":"2023-10-23T13:16:12.068Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2023-10-23T13:16:12.077Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"Changed active context"}
+{"level":30,"time":"2023-10-23T13:16:12.162Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"Video path: undefined"}
+{"level":30,"time":"2023-10-23T13:16:12.162Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"Changed active page"}
+{"level":30,"time":"2023-10-23T13:16:12.241Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"End of node method newPage"}
+{"level":30,"time":"2023-10-23T13:16:12.253Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"Start of node method fillText"}
+{"level":30,"time":"2023-10-23T13:16:12.253Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"Strict mode is enabled, find Locator with id=username_field in page."}
+{"level":30,"time":"2023-10-23T13:16:12.307Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"End of node method fillText"}
+{"level":30,"time":"2023-10-23T13:16:12.312Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"Start of node method fillText"}
+{"level":30,"time":"2023-10-23T13:16:12.312Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"Strict mode is enabled, find Locator with id=password_field in page."}
+{"level":30,"time":"2023-10-23T13:16:12.334Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"End of node method fillText"}
+{"level":30,"time":"2023-10-23T13:16:12.337Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"Start of node method click"}
+{"level":30,"time":"2023-10-23T13:16:12.337Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"Strict mode is enabled, find Locator with id=login_button in page."}
+{"level":30,"time":"2023-10-23T13:16:12.422Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"End of node method click"}
+{"level":30,"time":"2023-10-23T13:16:12.426Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"Start of node method getText"}
+{"level":30,"time":"2023-10-23T13:16:12.426Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"Strict mode is enabled, find Locator with body in page."}
+{"level":30,"time":"2023-10-23T13:16:12.458Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"Retrieved text for element body containing Error Page\n\nLogin failed. Invalid user name and/or password."}
+{"level":30,"time":"2023-10-23T13:16:12.458Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"End of node method getText"}
+{"level":30,"time":"2023-10-23T13:16:12.468Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2023-10-23T13:16:12.469Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2023-10-23T13:16:12.471Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2023-10-23T13:16:12.472Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2023-10-23T13:16:12.474Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"Changed active context"}
+{"level":30,"time":"2023-10-23T13:16:12.474Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"Changing current active page: page=0336f2ed-628d-4a6b-914d-2984c248640b"}
+{"level":30,"time":"2023-10-23T13:16:12.474Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"Changed active page"}
+{"level":30,"time":"2023-10-23T13:16:12.476Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2023-10-23T13:16:12.478Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2023-10-23T13:16:12.480Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2023-10-23T13:16:12.481Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2023-10-23T13:16:12.483Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2023-10-23T13:16:12.484Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2023-10-23T13:16:12.486Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"Changing current active page: page=0336f2ed-628d-4a6b-914d-2984c248640b"}
+{"level":30,"time":"2023-10-23T13:16:12.486Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"Changed active page"}
+{"level":30,"time":"2023-10-23T13:16:12.489Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2023-10-23T13:16:12.491Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2023-10-23T13:16:12.493Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"Changed active context"}
+{"level":30,"time":"2023-10-23T13:16:12.493Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"Changing current active page: page=0336f2ed-628d-4a6b-914d-2984c248640b"}
+{"level":30,"time":"2023-10-23T13:16:12.493Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"Changed active page"}
+{"level":30,"time":"2023-10-23T13:16:12.495Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"Start of node method closeContext"}
+{"level":30,"time":"2023-10-23T13:16:12.501Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"Removed page=f99860f7-2647-4d84-b42c-5375731c1efb from context=532bd559-d8a4-450e-97ed-9eb71a6c3b8e page stack"}
+{"level":30,"time":"2023-10-23T13:16:12.509Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"End of node method closeContext"}
+{"level":30,"time":"2023-10-23T13:16:12.512Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2023-10-23T13:16:12.512Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2023-10-23T13:16:12.518Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2023-10-23T13:16:12.519Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2023-10-23T13:16:12.522Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"Start of node method newPage"}
+{"level":30,"time":"2023-10-23T13:16:12.522Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2023-10-23T13:16:12.530Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"Changed active context"}
+{"level":30,"time":"2023-10-23T13:16:12.602Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"Video path: undefined"}
+{"level":30,"time":"2023-10-23T13:16:12.602Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"Changed active page"}
+{"level":30,"time":"2023-10-23T13:16:12.651Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"End of node method newPage"}
+{"level":30,"time":"2023-10-23T13:16:12.664Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"Start of node method fillText"}
+{"level":30,"time":"2023-10-23T13:16:12.665Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"Strict mode is enabled, find Locator with id=username_field in page."}
+{"level":30,"time":"2023-10-23T13:16:12.713Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"End of node method fillText"}
+{"level":30,"time":"2023-10-23T13:16:12.717Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"Start of node method fillText"}
+{"level":30,"time":"2023-10-23T13:16:12.717Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"Strict mode is enabled, find Locator with id=password_field in page."}
+{"level":30,"time":"2023-10-23T13:16:12.732Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"End of node method fillText"}
+{"level":30,"time":"2023-10-23T13:16:12.734Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"Start of node method click"}
+{"level":30,"time":"2023-10-23T13:16:12.734Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"Strict mode is enabled, find Locator with id=login_button in page."}
+{"level":30,"time":"2023-10-23T13:16:12.812Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"End of node method click"}
+{"level":30,"time":"2023-10-23T13:16:12.818Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"Start of node method getText"}
+{"level":30,"time":"2023-10-23T13:16:12.819Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"Strict mode is enabled, find Locator with body in page."}
+{"level":30,"time":"2023-10-23T13:16:12.851Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"Retrieved text for element body containing Error Page\n\nLogin failed. Invalid user name and/or password."}
+{"level":30,"time":"2023-10-23T13:16:12.851Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"End of node method getText"}
+{"level":30,"time":"2023-10-23T13:16:12.860Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2023-10-23T13:16:12.862Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2023-10-23T13:16:12.864Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2023-10-23T13:16:12.866Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2023-10-23T13:16:12.869Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"Changed active context"}
+{"level":30,"time":"2023-10-23T13:16:12.869Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"Changing current active page: page=5328509a-15a6-4c41-86f0-1d690488061a"}
+{"level":30,"time":"2023-10-23T13:16:12.869Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"Changed active page"}
+{"level":30,"time":"2023-10-23T13:16:12.872Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2023-10-23T13:16:12.874Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2023-10-23T13:16:12.876Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2023-10-23T13:16:12.876Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2023-10-23T13:16:12.878Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2023-10-23T13:16:12.878Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2023-10-23T13:16:12.882Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"Changing current active page: page=5328509a-15a6-4c41-86f0-1d690488061a"}
+{"level":30,"time":"2023-10-23T13:16:12.882Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"Changed active page"}
+{"level":30,"time":"2023-10-23T13:16:12.885Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2023-10-23T13:16:12.887Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2023-10-23T13:16:12.889Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"Changed active context"}
+{"level":30,"time":"2023-10-23T13:16:12.890Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"Changing current active page: page=5328509a-15a6-4c41-86f0-1d690488061a"}
+{"level":30,"time":"2023-10-23T13:16:12.890Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"Changed active page"}
+{"level":30,"time":"2023-10-23T13:16:12.892Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"Start of node method closeContext"}
+{"level":30,"time":"2023-10-23T13:16:12.898Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"Removed page=6ea83040-533a-42c8-b79f-c01339ab047d from context=5e022ad9-1bc8-4014-acd2-eded39ccd936 page stack"}
+{"level":30,"time":"2023-10-23T13:16:12.906Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"End of node method closeContext"}
+{"level":30,"time":"2023-10-23T13:16:12.911Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2023-10-23T13:16:12.911Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2023-10-23T13:16:12.956Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2023-10-23T13:16:13.065Z","pid":156929,"hostname":"IzabelaKasiarz","msg":"End of node method closeAllBrowsers"}

@@ -1,0 +1,1190 @@
+{"level":30,"time":"2024-04-16T14:58:31.150Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Listening on 46803"}
+(node:185322) DeprecationWarning: Calling start() is no longer necessary. It can be safely omitted.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+{"level":30,"time":"2024-04-16T14:58:31.241Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-04-16T14:58:31.242Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-04-16T14:58:31.247Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-04-16T14:58:31.247Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-04-16T14:58:31.255Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2024-04-16T14:58:31.461Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Adding browser to stack: chromium, version: 123.0.6312.4"}
+{"level":30,"time":"2024-04-16T14:58:31.462Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"End of node method newBrowser"}
+{"level":30,"time":"2024-04-16T14:58:31.462Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2024-04-16T14:58:31.466Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Start of node method newPage"}
+{"level":30,"time":"2024-04-16T14:58:31.467Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2024-04-16T14:58:31.478Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Changed active context"}
+{"level":30,"time":"2024-04-16T14:58:31.734Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Video path: undefined"}
+{"level":30,"time":"2024-04-16T14:58:31.734Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Changed active page"}
+{"level":30,"time":"2024-04-16T14:58:31.770Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"End of node method newPage"}
+{"level":30,"time":"2024-04-16T14:58:31.777Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Start of node method fillText"}
+================= Original suppressed error =================
+TypeError: selector.replaceAll is not a function
+    at findLocator (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:8673:25)
+    at fillText (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:9714:25)
+    at PlaywrightServer.fillText (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:10708:34)
+    at Object.onReceiveHalfClose (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1273:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:534:31)
+    at BaseServerInterceptingCall.handleEndEvent (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:576:14)
+    at ServerHttp2Stream.<anonymous> (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:376:18)
+    at ServerHttp2Stream.emit (events.js:412:35)
+    at endReadableNT (internal/streams/readable.js:1333:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21)
+=============================================================
+{"level":30,"time":"2024-04-16T14:58:31.778Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Error of node method  fillText"}
+{"level":30,"time":"2024-04-16T14:58:31.782Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2024-04-16T14:58:31.782Z","pid":185322,"hostname":"IzabelaKasiarz","Take screenshot with options: ":{"path":"/home/ikqa/robot/rf-katas/robot/browser/screenshot/fail-screenshot-1.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
+{"level":30,"time":"2024-04-16T14:58:31.894Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2024-04-16T14:58:31.902Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Start of node method getText"}
+================= Original suppressed error =================
+TypeError: selector.replaceAll is not a function
+    at findLocator (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:8673:25)
+    at getText (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:9477:25)
+    at PlaywrightServer.getText (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:10708:34)
+    at Object.onReceiveHalfClose (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1273:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:534:31)
+    at BaseServerInterceptingCall.handleEndEvent (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:576:14)
+    at ServerHttp2Stream.<anonymous> (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:376:18)
+    at ServerHttp2Stream.emit (events.js:412:35)
+    at endReadableNT (internal/streams/readable.js:1333:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21)
+=============================================================
+{"level":30,"time":"2024-04-16T14:58:31.902Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Error of node method  getText"}
+{"level":30,"time":"2024-04-16T14:58:31.915Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Start of node method getText"}
+================= Original suppressed error =================
+TypeError: selector.replaceAll is not a function
+    at findLocator (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:8673:25)
+    at getText (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:9477:25)
+    at PlaywrightServer.getText (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:10708:34)
+    at Object.onReceiveHalfClose (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1273:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:534:31)
+    at BaseServerInterceptingCall.handleEndEvent (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:576:14)
+    at ServerHttp2Stream.<anonymous> (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:376:18)
+    at ServerHttp2Stream.emit (events.js:412:35)
+    at endReadableNT (internal/streams/readable.js:1333:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21)
+=============================================================
+{"level":30,"time":"2024-04-16T14:58:31.915Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Error of node method  getText"}
+{"level":30,"time":"2024-04-16T14:58:31.930Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Start of node method getText"}
+================= Original suppressed error =================
+TypeError: selector.replaceAll is not a function
+    at findLocator (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:8673:25)
+    at getText (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:9477:25)
+    at PlaywrightServer.getText (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:10708:34)
+    at Object.onReceiveHalfClose (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1273:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:534:31)
+    at BaseServerInterceptingCall.handleEndEvent (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:576:14)
+    at ServerHttp2Stream.<anonymous> (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:376:18)
+    at ServerHttp2Stream.emit (events.js:412:35)
+    at endReadableNT (internal/streams/readable.js:1333:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21)
+=============================================================
+{"level":30,"time":"2024-04-16T14:58:31.930Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Error of node method  getText"}
+{"level":30,"time":"2024-04-16T14:58:31.947Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Start of node method getText"}
+================= Original suppressed error =================
+TypeError: selector.replaceAll is not a function
+    at findLocator (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:8673:25)
+    at getText (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:9477:25)
+    at PlaywrightServer.getText (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:10708:34)
+    at Object.onReceiveHalfClose (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1273:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:534:31)
+    at BaseServerInterceptingCall.handleEndEvent (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:576:14)
+    at ServerHttp2Stream.<anonymous> (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:376:18)
+    at ServerHttp2Stream.emit (events.js:412:35)
+    at endReadableNT (internal/streams/readable.js:1333:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21)
+=============================================================
+{"level":30,"time":"2024-04-16T14:58:31.948Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Error of node method  getText"}
+{"level":30,"time":"2024-04-16T14:58:31.965Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Start of node method getText"}
+================= Original suppressed error =================
+TypeError: selector.replaceAll is not a function
+    at findLocator (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:8673:25)
+    at getText (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:9477:25)
+    at PlaywrightServer.getText (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:10708:34)
+    at Object.onReceiveHalfClose (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1273:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:534:31)
+    at BaseServerInterceptingCall.handleEndEvent (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:576:14)
+    at ServerHttp2Stream.<anonymous> (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:376:18)
+    at ServerHttp2Stream.emit (events.js:412:35)
+    at endReadableNT (internal/streams/readable.js:1333:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21)
+=============================================================
+{"level":30,"time":"2024-04-16T14:58:31.966Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Error of node method  getText"}
+{"level":30,"time":"2024-04-16T14:58:31.983Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Start of node method getText"}
+================= Original suppressed error =================
+TypeError: selector.replaceAll is not a function
+    at findLocator (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:8673:25)
+    at getText (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:9477:25)
+    at PlaywrightServer.getText (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:10708:34)
+    at Object.onReceiveHalfClose (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1273:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:534:31)
+    at BaseServerInterceptingCall.handleEndEvent (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:576:14)
+    at ServerHttp2Stream.<anonymous> (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:376:18)
+    at ServerHttp2Stream.emit (events.js:412:35)
+    at endReadableNT (internal/streams/readable.js:1333:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21)
+=============================================================
+{"level":30,"time":"2024-04-16T14:58:31.984Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Error of node method  getText"}
+{"level":30,"time":"2024-04-16T14:58:32.002Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Start of node method getText"}
+================= Original suppressed error =================
+TypeError: selector.replaceAll is not a function
+    at findLocator (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:8673:25)
+    at getText (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:9477:25)
+    at PlaywrightServer.getText (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:10708:34)
+    at Object.onReceiveHalfClose (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1273:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:534:31)
+    at BaseServerInterceptingCall.handleEndEvent (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:576:14)
+    at ServerHttp2Stream.<anonymous> (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:376:18)
+    at ServerHttp2Stream.emit (events.js:412:35)
+    at endReadableNT (internal/streams/readable.js:1333:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21)
+=============================================================
+{"level":30,"time":"2024-04-16T14:58:32.002Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Error of node method  getText"}
+{"level":30,"time":"2024-04-16T14:58:32.020Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Start of node method getText"}
+================= Original suppressed error =================
+TypeError: selector.replaceAll is not a function
+    at findLocator (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:8673:25)
+    at getText (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:9477:25)
+    at PlaywrightServer.getText (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:10708:34)
+    at Object.onReceiveHalfClose (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1273:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:534:31)
+    at BaseServerInterceptingCall.handleEndEvent (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:576:14)
+    at ServerHttp2Stream.<anonymous> (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:376:18)
+    at ServerHttp2Stream.emit (events.js:412:35)
+    at endReadableNT (internal/streams/readable.js:1333:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21)
+=============================================================
+{"level":30,"time":"2024-04-16T14:58:32.021Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Error of node method  getText"}
+{"level":30,"time":"2024-04-16T14:58:32.036Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Start of node method getText"}
+================= Original suppressed error =================
+TypeError: selector.replaceAll is not a function
+    at findLocator (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:8673:25)
+    at getText (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:9477:25)
+    at PlaywrightServer.getText (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:10708:34)
+    at Object.onReceiveHalfClose (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1273:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:534:31)
+    at BaseServerInterceptingCall.handleEndEvent (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:576:14)
+    at ServerHttp2Stream.<anonymous> (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:376:18)
+    at ServerHttp2Stream.emit (events.js:412:35)
+    at endReadableNT (internal/streams/readable.js:1333:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21)
+=============================================================
+{"level":30,"time":"2024-04-16T14:58:32.037Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Error of node method  getText"}
+{"level":30,"time":"2024-04-16T14:58:32.050Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Start of node method getText"}
+================= Original suppressed error =================
+TypeError: selector.replaceAll is not a function
+    at findLocator (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:8673:25)
+    at getText (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:9477:25)
+    at PlaywrightServer.getText (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:10708:34)
+    at Object.onReceiveHalfClose (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1273:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:534:31)
+    at BaseServerInterceptingCall.handleEndEvent (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:576:14)
+    at ServerHttp2Stream.<anonymous> (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:376:18)
+    at ServerHttp2Stream.emit (events.js:412:35)
+    at endReadableNT (internal/streams/readable.js:1333:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21)
+=============================================================
+{"level":30,"time":"2024-04-16T14:58:32.050Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Error of node method  getText"}
+{"level":30,"time":"2024-04-16T14:58:32.063Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Start of node method getText"}
+================= Original suppressed error =================
+TypeError: selector.replaceAll is not a function
+    at findLocator (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:8673:25)
+    at getText (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:9477:25)
+    at PlaywrightServer.getText (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:10708:34)
+    at Object.onReceiveHalfClose (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1273:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:534:31)
+    at BaseServerInterceptingCall.handleEndEvent (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:576:14)
+    at ServerHttp2Stream.<anonymous> (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:376:18)
+    at ServerHttp2Stream.emit (events.js:412:35)
+    at endReadableNT (internal/streams/readable.js:1333:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21)
+=============================================================
+{"level":30,"time":"2024-04-16T14:58:32.063Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Error of node method  getText"}
+{"level":30,"time":"2024-04-16T14:58:32.075Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Start of node method getText"}
+================= Original suppressed error =================
+TypeError: selector.replaceAll is not a function
+    at findLocator (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:8673:25)
+    at getText (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:9477:25)
+    at PlaywrightServer.getText (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:10708:34)
+    at Object.onReceiveHalfClose (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1273:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:534:31)
+    at BaseServerInterceptingCall.handleEndEvent (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:576:14)
+    at ServerHttp2Stream.<anonymous> (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:376:18)
+    at ServerHttp2Stream.emit (events.js:412:35)
+    at endReadableNT (internal/streams/readable.js:1333:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21)
+=============================================================
+{"level":30,"time":"2024-04-16T14:58:32.075Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Error of node method  getText"}
+{"level":30,"time":"2024-04-16T14:58:32.087Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Start of node method getText"}
+================= Original suppressed error =================
+TypeError: selector.replaceAll is not a function
+    at findLocator (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:8673:25)
+    at getText (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:9477:25)
+    at PlaywrightServer.getText (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:10708:34)
+    at Object.onReceiveHalfClose (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1273:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:534:31)
+    at BaseServerInterceptingCall.handleEndEvent (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:576:14)
+    at ServerHttp2Stream.<anonymous> (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:376:18)
+    at ServerHttp2Stream.emit (events.js:412:35)
+    at endReadableNT (internal/streams/readable.js:1333:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21)
+=============================================================
+{"level":30,"time":"2024-04-16T14:58:32.088Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Error of node method  getText"}
+{"level":30,"time":"2024-04-16T14:58:32.100Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Start of node method getText"}
+================= Original suppressed error =================
+TypeError: selector.replaceAll is not a function
+    at findLocator (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:8673:25)
+    at getText (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:9477:25)
+    at PlaywrightServer.getText (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:10708:34)
+    at Object.onReceiveHalfClose (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1273:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:534:31)
+    at BaseServerInterceptingCall.handleEndEvent (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:576:14)
+    at ServerHttp2Stream.<anonymous> (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:376:18)
+    at ServerHttp2Stream.emit (events.js:412:35)
+    at endReadableNT (internal/streams/readable.js:1333:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21)
+=============================================================
+{"level":30,"time":"2024-04-16T14:58:32.100Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Error of node method  getText"}
+{"level":30,"time":"2024-04-16T14:58:32.112Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Start of node method getText"}
+================= Original suppressed error =================
+TypeError: selector.replaceAll is not a function
+    at findLocator (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:8673:25)
+    at getText (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:9477:25)
+    at PlaywrightServer.getText (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:10708:34)
+    at Object.onReceiveHalfClose (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1273:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:534:31)
+    at BaseServerInterceptingCall.handleEndEvent (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:576:14)
+    at ServerHttp2Stream.<anonymous> (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:376:18)
+    at ServerHttp2Stream.emit (events.js:412:35)
+    at endReadableNT (internal/streams/readable.js:1333:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21)
+=============================================================
+{"level":30,"time":"2024-04-16T14:58:32.112Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Error of node method  getText"}
+{"level":30,"time":"2024-04-16T14:58:32.124Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Start of node method getText"}
+================= Original suppressed error =================
+TypeError: selector.replaceAll is not a function
+    at findLocator (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:8673:25)
+    at getText (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:9477:25)
+    at PlaywrightServer.getText (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:10708:34)
+    at Object.onReceiveHalfClose (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1273:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:534:31)
+    at BaseServerInterceptingCall.handleEndEvent (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:576:14)
+    at ServerHttp2Stream.<anonymous> (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:376:18)
+    at ServerHttp2Stream.emit (events.js:412:35)
+    at endReadableNT (internal/streams/readable.js:1333:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21)
+=============================================================
+{"level":30,"time":"2024-04-16T14:58:32.125Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Error of node method  getText"}
+{"level":30,"time":"2024-04-16T14:58:32.137Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Start of node method getText"}
+================= Original suppressed error =================
+TypeError: selector.replaceAll is not a function
+    at findLocator (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:8673:25)
+    at getText (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:9477:25)
+    at PlaywrightServer.getText (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:10708:34)
+    at Object.onReceiveHalfClose (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1273:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:534:31)
+    at BaseServerInterceptingCall.handleEndEvent (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:576:14)
+    at ServerHttp2Stream.<anonymous> (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:376:18)
+    at ServerHttp2Stream.emit (events.js:412:35)
+    at endReadableNT (internal/streams/readable.js:1333:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21)
+=============================================================
+{"level":30,"time":"2024-04-16T14:58:32.137Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Error of node method  getText"}
+{"level":30,"time":"2024-04-16T14:58:32.150Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Start of node method getText"}
+================= Original suppressed error =================
+TypeError: selector.replaceAll is not a function
+    at findLocator (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:8673:25)
+    at getText (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:9477:25)
+    at PlaywrightServer.getText (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:10708:34)
+    at Object.onReceiveHalfClose (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1273:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:534:31)
+    at BaseServerInterceptingCall.handleEndEvent (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:576:14)
+    at ServerHttp2Stream.<anonymous> (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:376:18)
+    at ServerHttp2Stream.emit (events.js:412:35)
+    at endReadableNT (internal/streams/readable.js:1333:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21)
+=============================================================
+{"level":30,"time":"2024-04-16T14:58:32.151Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Error of node method  getText"}
+{"level":30,"time":"2024-04-16T14:58:32.164Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Start of node method getText"}
+================= Original suppressed error =================
+TypeError: selector.replaceAll is not a function
+    at findLocator (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:8673:25)
+    at getText (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:9477:25)
+    at PlaywrightServer.getText (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:10708:34)
+    at Object.onReceiveHalfClose (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1273:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:534:31)
+    at BaseServerInterceptingCall.handleEndEvent (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:576:14)
+    at ServerHttp2Stream.<anonymous> (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:376:18)
+    at ServerHttp2Stream.emit (events.js:412:35)
+    at endReadableNT (internal/streams/readable.js:1333:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21)
+=============================================================
+{"level":30,"time":"2024-04-16T14:58:32.164Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Error of node method  getText"}
+{"level":30,"time":"2024-04-16T14:58:32.177Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Start of node method getText"}
+================= Original suppressed error =================
+TypeError: selector.replaceAll is not a function
+    at findLocator (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:8673:25)
+    at getText (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:9477:25)
+    at PlaywrightServer.getText (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:10708:34)
+    at Object.onReceiveHalfClose (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1273:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:534:31)
+    at BaseServerInterceptingCall.handleEndEvent (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:576:14)
+    at ServerHttp2Stream.<anonymous> (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:376:18)
+    at ServerHttp2Stream.emit (events.js:412:35)
+    at endReadableNT (internal/streams/readable.js:1333:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21)
+=============================================================
+{"level":30,"time":"2024-04-16T14:58:32.177Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Error of node method  getText"}
+{"level":30,"time":"2024-04-16T14:58:32.191Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Start of node method getText"}
+================= Original suppressed error =================
+TypeError: selector.replaceAll is not a function
+    at findLocator (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:8673:25)
+    at getText (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:9477:25)
+    at PlaywrightServer.getText (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:10708:34)
+    at Object.onReceiveHalfClose (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1273:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:534:31)
+    at BaseServerInterceptingCall.handleEndEvent (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:576:14)
+    at ServerHttp2Stream.<anonymous> (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:376:18)
+    at ServerHttp2Stream.emit (events.js:412:35)
+    at endReadableNT (internal/streams/readable.js:1333:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21)
+=============================================================
+{"level":30,"time":"2024-04-16T14:58:32.191Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Error of node method  getText"}
+{"level":30,"time":"2024-04-16T14:58:32.204Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Start of node method getText"}
+================= Original suppressed error =================
+TypeError: selector.replaceAll is not a function
+    at findLocator (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:8673:25)
+    at getText (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:9477:25)
+    at PlaywrightServer.getText (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:10708:34)
+    at Object.onReceiveHalfClose (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1273:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:534:31)
+    at BaseServerInterceptingCall.handleEndEvent (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:576:14)
+    at ServerHttp2Stream.<anonymous> (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:376:18)
+    at ServerHttp2Stream.emit (events.js:412:35)
+    at endReadableNT (internal/streams/readable.js:1333:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21)
+=============================================================
+{"level":30,"time":"2024-04-16T14:58:32.205Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Error of node method  getText"}
+{"level":30,"time":"2024-04-16T14:58:32.218Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Start of node method getText"}
+================= Original suppressed error =================
+TypeError: selector.replaceAll is not a function
+    at findLocator (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:8673:25)
+    at getText (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:9477:25)
+    at PlaywrightServer.getText (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:10708:34)
+    at Object.onReceiveHalfClose (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1273:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:534:31)
+    at BaseServerInterceptingCall.handleEndEvent (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:576:14)
+    at ServerHttp2Stream.<anonymous> (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:376:18)
+    at ServerHttp2Stream.emit (events.js:412:35)
+    at endReadableNT (internal/streams/readable.js:1333:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21)
+=============================================================
+{"level":30,"time":"2024-04-16T14:58:32.218Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Error of node method  getText"}
+{"level":30,"time":"2024-04-16T14:58:32.232Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Start of node method getText"}
+================= Original suppressed error =================
+TypeError: selector.replaceAll is not a function
+    at findLocator (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:8673:25)
+    at getText (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:9477:25)
+    at PlaywrightServer.getText (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:10708:34)
+    at Object.onReceiveHalfClose (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1273:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:534:31)
+    at BaseServerInterceptingCall.handleEndEvent (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:576:14)
+    at ServerHttp2Stream.<anonymous> (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:376:18)
+    at ServerHttp2Stream.emit (events.js:412:35)
+    at endReadableNT (internal/streams/readable.js:1333:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21)
+=============================================================
+{"level":30,"time":"2024-04-16T14:58:32.232Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Error of node method  getText"}
+{"level":30,"time":"2024-04-16T14:58:32.246Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Start of node method getText"}
+================= Original suppressed error =================
+TypeError: selector.replaceAll is not a function
+    at findLocator (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:8673:25)
+    at getText (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:9477:25)
+    at PlaywrightServer.getText (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:10708:34)
+    at Object.onReceiveHalfClose (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1273:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:534:31)
+    at BaseServerInterceptingCall.handleEndEvent (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:576:14)
+    at ServerHttp2Stream.<anonymous> (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:376:18)
+    at ServerHttp2Stream.emit (events.js:412:35)
+    at endReadableNT (internal/streams/readable.js:1333:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21)
+=============================================================
+{"level":30,"time":"2024-04-16T14:58:32.246Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Error of node method  getText"}
+{"level":30,"time":"2024-04-16T14:58:32.260Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Start of node method getText"}
+================= Original suppressed error =================
+TypeError: selector.replaceAll is not a function
+    at findLocator (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:8673:25)
+    at getText (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:9477:25)
+    at PlaywrightServer.getText (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:10708:34)
+    at Object.onReceiveHalfClose (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1273:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:534:31)
+    at BaseServerInterceptingCall.handleEndEvent (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:576:14)
+    at ServerHttp2Stream.<anonymous> (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:376:18)
+    at ServerHttp2Stream.emit (events.js:412:35)
+    at endReadableNT (internal/streams/readable.js:1333:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21)
+=============================================================
+{"level":30,"time":"2024-04-16T14:58:32.260Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Error of node method  getText"}
+{"level":30,"time":"2024-04-16T14:58:32.274Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Start of node method getText"}
+================= Original suppressed error =================
+TypeError: selector.replaceAll is not a function
+    at findLocator (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:8673:25)
+    at getText (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:9477:25)
+    at PlaywrightServer.getText (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:10708:34)
+    at Object.onReceiveHalfClose (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1273:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:534:31)
+    at BaseServerInterceptingCall.handleEndEvent (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:576:14)
+    at ServerHttp2Stream.<anonymous> (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:376:18)
+    at ServerHttp2Stream.emit (events.js:412:35)
+    at endReadableNT (internal/streams/readable.js:1333:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21)
+=============================================================
+{"level":30,"time":"2024-04-16T14:58:32.275Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Error of node method  getText"}
+{"level":30,"time":"2024-04-16T14:58:32.289Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Start of node method getText"}
+================= Original suppressed error =================
+TypeError: selector.replaceAll is not a function
+    at findLocator (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:8673:25)
+    at getText (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:9477:25)
+    at PlaywrightServer.getText (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:10708:34)
+    at Object.onReceiveHalfClose (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1273:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:534:31)
+    at BaseServerInterceptingCall.handleEndEvent (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:576:14)
+    at ServerHttp2Stream.<anonymous> (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:376:18)
+    at ServerHttp2Stream.emit (events.js:412:35)
+    at endReadableNT (internal/streams/readable.js:1333:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21)
+=============================================================
+{"level":30,"time":"2024-04-16T14:58:32.289Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Error of node method  getText"}
+{"level":30,"time":"2024-04-16T14:58:32.304Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Start of node method getText"}
+================= Original suppressed error =================
+TypeError: selector.replaceAll is not a function
+    at findLocator (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:8673:25)
+    at getText (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:9477:25)
+    at PlaywrightServer.getText (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:10708:34)
+    at Object.onReceiveHalfClose (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1273:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:534:31)
+    at BaseServerInterceptingCall.handleEndEvent (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:576:14)
+    at ServerHttp2Stream.<anonymous> (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:376:18)
+    at ServerHttp2Stream.emit (events.js:412:35)
+    at endReadableNT (internal/streams/readable.js:1333:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21)
+=============================================================
+{"level":30,"time":"2024-04-16T14:58:32.304Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Error of node method  getText"}
+{"level":30,"time":"2024-04-16T14:58:32.319Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Start of node method getText"}
+================= Original suppressed error =================
+TypeError: selector.replaceAll is not a function
+    at findLocator (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:8673:25)
+    at getText (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:9477:25)
+    at PlaywrightServer.getText (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:10708:34)
+    at Object.onReceiveHalfClose (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1273:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:534:31)
+    at BaseServerInterceptingCall.handleEndEvent (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:576:14)
+    at ServerHttp2Stream.<anonymous> (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:376:18)
+    at ServerHttp2Stream.emit (events.js:412:35)
+    at endReadableNT (internal/streams/readable.js:1333:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21)
+=============================================================
+{"level":30,"time":"2024-04-16T14:58:32.320Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Error of node method  getText"}
+{"level":30,"time":"2024-04-16T14:58:32.335Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Start of node method getText"}
+================= Original suppressed error =================
+TypeError: selector.replaceAll is not a function
+    at findLocator (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:8673:25)
+    at getText (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:9477:25)
+    at PlaywrightServer.getText (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:10708:34)
+    at Object.onReceiveHalfClose (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1273:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:534:31)
+    at BaseServerInterceptingCall.handleEndEvent (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:576:14)
+    at ServerHttp2Stream.<anonymous> (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:376:18)
+    at ServerHttp2Stream.emit (events.js:412:35)
+    at endReadableNT (internal/streams/readable.js:1333:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21)
+=============================================================
+{"level":30,"time":"2024-04-16T14:58:32.336Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Error of node method  getText"}
+{"level":30,"time":"2024-04-16T14:58:32.351Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Start of node method getText"}
+================= Original suppressed error =================
+TypeError: selector.replaceAll is not a function
+    at findLocator (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:8673:25)
+    at getText (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:9477:25)
+    at PlaywrightServer.getText (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:10708:34)
+    at Object.onReceiveHalfClose (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1273:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:534:31)
+    at BaseServerInterceptingCall.handleEndEvent (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:576:14)
+    at ServerHttp2Stream.<anonymous> (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:376:18)
+    at ServerHttp2Stream.emit (events.js:412:35)
+    at endReadableNT (internal/streams/readable.js:1333:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21)
+=============================================================
+{"level":30,"time":"2024-04-16T14:58:32.351Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Error of node method  getText"}
+{"level":30,"time":"2024-04-16T14:58:32.365Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Start of node method getText"}
+================= Original suppressed error =================
+TypeError: selector.replaceAll is not a function
+    at findLocator (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:8673:25)
+    at getText (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:9477:25)
+    at PlaywrightServer.getText (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:10708:34)
+    at Object.onReceiveHalfClose (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1273:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:534:31)
+    at BaseServerInterceptingCall.handleEndEvent (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:576:14)
+    at ServerHttp2Stream.<anonymous> (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:376:18)
+    at ServerHttp2Stream.emit (events.js:412:35)
+    at endReadableNT (internal/streams/readable.js:1333:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21)
+=============================================================
+{"level":30,"time":"2024-04-16T14:58:32.366Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Error of node method  getText"}
+{"level":30,"time":"2024-04-16T14:58:32.380Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Start of node method getText"}
+================= Original suppressed error =================
+TypeError: selector.replaceAll is not a function
+    at findLocator (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:8673:25)
+    at getText (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:9477:25)
+    at PlaywrightServer.getText (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:10708:34)
+    at Object.onReceiveHalfClose (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1273:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:534:31)
+    at BaseServerInterceptingCall.handleEndEvent (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:576:14)
+    at ServerHttp2Stream.<anonymous> (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:376:18)
+    at ServerHttp2Stream.emit (events.js:412:35)
+    at endReadableNT (internal/streams/readable.js:1333:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21)
+=============================================================
+{"level":30,"time":"2024-04-16T14:58:32.380Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Error of node method  getText"}
+{"level":30,"time":"2024-04-16T14:58:32.395Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Start of node method getText"}
+================= Original suppressed error =================
+TypeError: selector.replaceAll is not a function
+    at findLocator (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:8673:25)
+    at getText (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:9477:25)
+    at PlaywrightServer.getText (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:10708:34)
+    at Object.onReceiveHalfClose (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1273:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:534:31)
+    at BaseServerInterceptingCall.handleEndEvent (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:576:14)
+    at ServerHttp2Stream.<anonymous> (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:376:18)
+    at ServerHttp2Stream.emit (events.js:412:35)
+    at endReadableNT (internal/streams/readable.js:1333:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21)
+=============================================================
+{"level":30,"time":"2024-04-16T14:58:32.396Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Error of node method  getText"}
+{"level":30,"time":"2024-04-16T14:58:32.411Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Start of node method getText"}
+================= Original suppressed error =================
+TypeError: selector.replaceAll is not a function
+    at findLocator (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:8673:25)
+    at getText (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:9477:25)
+    at PlaywrightServer.getText (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:10708:34)
+    at Object.onReceiveHalfClose (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1273:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:534:31)
+    at BaseServerInterceptingCall.handleEndEvent (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:576:14)
+    at ServerHttp2Stream.<anonymous> (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:376:18)
+    at ServerHttp2Stream.emit (events.js:412:35)
+    at endReadableNT (internal/streams/readable.js:1333:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21)
+=============================================================
+{"level":30,"time":"2024-04-16T14:58:32.412Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Error of node method  getText"}
+{"level":30,"time":"2024-04-16T14:58:32.426Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Start of node method getText"}
+================= Original suppressed error =================
+TypeError: selector.replaceAll is not a function
+    at findLocator (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:8673:25)
+    at getText (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:9477:25)
+    at PlaywrightServer.getText (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:10708:34)
+    at Object.onReceiveHalfClose (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1273:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:534:31)
+    at BaseServerInterceptingCall.handleEndEvent (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:576:14)
+    at ServerHttp2Stream.<anonymous> (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:376:18)
+    at ServerHttp2Stream.emit (events.js:412:35)
+    at endReadableNT (internal/streams/readable.js:1333:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21)
+=============================================================
+{"level":30,"time":"2024-04-16T14:58:32.426Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Error of node method  getText"}
+{"level":30,"time":"2024-04-16T14:58:32.439Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Start of node method getText"}
+================= Original suppressed error =================
+TypeError: selector.replaceAll is not a function
+    at findLocator (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:8673:25)
+    at getText (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:9477:25)
+    at PlaywrightServer.getText (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:10708:34)
+    at Object.onReceiveHalfClose (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1273:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:534:31)
+    at BaseServerInterceptingCall.handleEndEvent (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:576:14)
+    at ServerHttp2Stream.<anonymous> (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:376:18)
+    at ServerHttp2Stream.emit (events.js:412:35)
+    at endReadableNT (internal/streams/readable.js:1333:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21)
+=============================================================
+{"level":30,"time":"2024-04-16T14:58:32.439Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Error of node method  getText"}
+{"level":30,"time":"2024-04-16T14:58:32.452Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Start of node method getText"}
+================= Original suppressed error =================
+TypeError: selector.replaceAll is not a function
+    at findLocator (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:8673:25)
+    at getText (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:9477:25)
+    at PlaywrightServer.getText (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:10708:34)
+    at Object.onReceiveHalfClose (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1273:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:534:31)
+    at BaseServerInterceptingCall.handleEndEvent (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:576:14)
+    at ServerHttp2Stream.<anonymous> (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:376:18)
+    at ServerHttp2Stream.emit (events.js:412:35)
+    at endReadableNT (internal/streams/readable.js:1333:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21)
+=============================================================
+{"level":30,"time":"2024-04-16T14:58:32.453Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Error of node method  getText"}
+{"level":30,"time":"2024-04-16T14:58:32.465Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Start of node method getText"}
+================= Original suppressed error =================
+TypeError: selector.replaceAll is not a function
+    at findLocator (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:8673:25)
+    at getText (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:9477:25)
+    at PlaywrightServer.getText (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:10708:34)
+    at Object.onReceiveHalfClose (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1273:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:534:31)
+    at BaseServerInterceptingCall.handleEndEvent (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:576:14)
+    at ServerHttp2Stream.<anonymous> (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:376:18)
+    at ServerHttp2Stream.emit (events.js:412:35)
+    at endReadableNT (internal/streams/readable.js:1333:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21)
+=============================================================
+{"level":30,"time":"2024-04-16T14:58:32.465Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Error of node method  getText"}
+{"level":30,"time":"2024-04-16T14:58:32.479Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Start of node method getText"}
+================= Original suppressed error =================
+TypeError: selector.replaceAll is not a function
+    at findLocator (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:8673:25)
+    at getText (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:9477:25)
+    at PlaywrightServer.getText (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:10708:34)
+    at Object.onReceiveHalfClose (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1273:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:534:31)
+    at BaseServerInterceptingCall.handleEndEvent (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:576:14)
+    at ServerHttp2Stream.<anonymous> (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:376:18)
+    at ServerHttp2Stream.emit (events.js:412:35)
+    at endReadableNT (internal/streams/readable.js:1333:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21)
+=============================================================
+{"level":30,"time":"2024-04-16T14:58:32.479Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Error of node method  getText"}
+{"level":30,"time":"2024-04-16T14:58:32.492Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Start of node method getText"}
+================= Original suppressed error =================
+TypeError: selector.replaceAll is not a function
+    at findLocator (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:8673:25)
+    at getText (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:9477:25)
+    at PlaywrightServer.getText (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:10708:34)
+    at Object.onReceiveHalfClose (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1273:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:534:31)
+    at BaseServerInterceptingCall.handleEndEvent (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:576:14)
+    at ServerHttp2Stream.<anonymous> (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:376:18)
+    at ServerHttp2Stream.emit (events.js:412:35)
+    at endReadableNT (internal/streams/readable.js:1333:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21)
+=============================================================
+{"level":30,"time":"2024-04-16T14:58:32.492Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Error of node method  getText"}
+{"level":30,"time":"2024-04-16T14:58:32.505Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Start of node method getText"}
+================= Original suppressed error =================
+TypeError: selector.replaceAll is not a function
+    at findLocator (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:8673:25)
+    at getText (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:9477:25)
+    at PlaywrightServer.getText (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:10708:34)
+    at Object.onReceiveHalfClose (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1273:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:534:31)
+    at BaseServerInterceptingCall.handleEndEvent (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:576:14)
+    at ServerHttp2Stream.<anonymous> (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:376:18)
+    at ServerHttp2Stream.emit (events.js:412:35)
+    at endReadableNT (internal/streams/readable.js:1333:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21)
+=============================================================
+{"level":30,"time":"2024-04-16T14:58:32.505Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Error of node method  getText"}
+{"level":30,"time":"2024-04-16T14:58:32.518Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Start of node method getText"}
+================= Original suppressed error =================
+TypeError: selector.replaceAll is not a function
+    at findLocator (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:8673:25)
+    at getText (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:9477:25)
+    at PlaywrightServer.getText (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:10708:34)
+    at Object.onReceiveHalfClose (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1273:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:534:31)
+    at BaseServerInterceptingCall.handleEndEvent (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:576:14)
+    at ServerHttp2Stream.<anonymous> (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:376:18)
+    at ServerHttp2Stream.emit (events.js:412:35)
+    at endReadableNT (internal/streams/readable.js:1333:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21)
+=============================================================
+{"level":30,"time":"2024-04-16T14:58:32.519Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Error of node method  getText"}
+{"level":30,"time":"2024-04-16T14:58:32.532Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Start of node method getText"}
+================= Original suppressed error =================
+TypeError: selector.replaceAll is not a function
+    at findLocator (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:8673:25)
+    at getText (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:9477:25)
+    at PlaywrightServer.getText (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:10708:34)
+    at Object.onReceiveHalfClose (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1273:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:534:31)
+    at BaseServerInterceptingCall.handleEndEvent (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:576:14)
+    at ServerHttp2Stream.<anonymous> (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:376:18)
+    at ServerHttp2Stream.emit (events.js:412:35)
+    at endReadableNT (internal/streams/readable.js:1333:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21)
+=============================================================
+{"level":30,"time":"2024-04-16T14:58:32.532Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Error of node method  getText"}
+{"level":30,"time":"2024-04-16T14:58:32.545Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Start of node method getText"}
+================= Original suppressed error =================
+TypeError: selector.replaceAll is not a function
+    at findLocator (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:8673:25)
+    at getText (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:9477:25)
+    at PlaywrightServer.getText (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:10708:34)
+    at Object.onReceiveHalfClose (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1273:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:534:31)
+    at BaseServerInterceptingCall.handleEndEvent (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:576:14)
+    at ServerHttp2Stream.<anonymous> (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:376:18)
+    at ServerHttp2Stream.emit (events.js:412:35)
+    at endReadableNT (internal/streams/readable.js:1333:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21)
+=============================================================
+{"level":30,"time":"2024-04-16T14:58:32.545Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Error of node method  getText"}
+{"level":30,"time":"2024-04-16T14:58:32.559Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Start of node method getText"}
+================= Original suppressed error =================
+TypeError: selector.replaceAll is not a function
+    at findLocator (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:8673:25)
+    at getText (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:9477:25)
+    at PlaywrightServer.getText (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:10708:34)
+    at Object.onReceiveHalfClose (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1273:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:534:31)
+    at BaseServerInterceptingCall.handleEndEvent (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:576:14)
+    at ServerHttp2Stream.<anonymous> (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:376:18)
+    at ServerHttp2Stream.emit (events.js:412:35)
+    at endReadableNT (internal/streams/readable.js:1333:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21)
+=============================================================
+{"level":30,"time":"2024-04-16T14:58:32.559Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Error of node method  getText"}
+{"level":30,"time":"2024-04-16T14:58:32.573Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Start of node method getText"}
+================= Original suppressed error =================
+TypeError: selector.replaceAll is not a function
+    at findLocator (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:8673:25)
+    at getText (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:9477:25)
+    at PlaywrightServer.getText (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:10708:34)
+    at Object.onReceiveHalfClose (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1273:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:534:31)
+    at BaseServerInterceptingCall.handleEndEvent (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:576:14)
+    at ServerHttp2Stream.<anonymous> (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:376:18)
+    at ServerHttp2Stream.emit (events.js:412:35)
+    at endReadableNT (internal/streams/readable.js:1333:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21)
+=============================================================
+{"level":30,"time":"2024-04-16T14:58:32.573Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Error of node method  getText"}
+{"level":30,"time":"2024-04-16T14:58:32.587Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Start of node method getText"}
+================= Original suppressed error =================
+TypeError: selector.replaceAll is not a function
+    at findLocator (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:8673:25)
+    at getText (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:9477:25)
+    at PlaywrightServer.getText (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:10708:34)
+    at Object.onReceiveHalfClose (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1273:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:534:31)
+    at BaseServerInterceptingCall.handleEndEvent (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:576:14)
+    at ServerHttp2Stream.<anonymous> (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:376:18)
+    at ServerHttp2Stream.emit (events.js:412:35)
+    at endReadableNT (internal/streams/readable.js:1333:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21)
+=============================================================
+{"level":30,"time":"2024-04-16T14:58:32.587Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Error of node method  getText"}
+{"level":30,"time":"2024-04-16T14:58:32.601Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Start of node method getText"}
+================= Original suppressed error =================
+TypeError: selector.replaceAll is not a function
+    at findLocator (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:8673:25)
+    at getText (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:9477:25)
+    at PlaywrightServer.getText (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:10708:34)
+    at Object.onReceiveHalfClose (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1273:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:534:31)
+    at BaseServerInterceptingCall.handleEndEvent (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:576:14)
+    at ServerHttp2Stream.<anonymous> (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:376:18)
+    at ServerHttp2Stream.emit (events.js:412:35)
+    at endReadableNT (internal/streams/readable.js:1333:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21)
+=============================================================
+{"level":30,"time":"2024-04-16T14:58:32.601Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Error of node method  getText"}
+{"level":30,"time":"2024-04-16T14:58:32.616Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Start of node method getText"}
+================= Original suppressed error =================
+TypeError: selector.replaceAll is not a function
+    at findLocator (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:8673:25)
+    at getText (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:9477:25)
+    at PlaywrightServer.getText (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:10708:34)
+    at Object.onReceiveHalfClose (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1273:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:534:31)
+    at BaseServerInterceptingCall.handleEndEvent (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:576:14)
+    at ServerHttp2Stream.<anonymous> (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:376:18)
+    at ServerHttp2Stream.emit (events.js:412:35)
+    at endReadableNT (internal/streams/readable.js:1333:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21)
+=============================================================
+{"level":30,"time":"2024-04-16T14:58:32.616Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Error of node method  getText"}
+{"level":30,"time":"2024-04-16T14:58:32.631Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Start of node method getText"}
+================= Original suppressed error =================
+TypeError: selector.replaceAll is not a function
+    at findLocator (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:8673:25)
+    at getText (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:9477:25)
+    at PlaywrightServer.getText (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:10708:34)
+    at Object.onReceiveHalfClose (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1273:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:534:31)
+    at BaseServerInterceptingCall.handleEndEvent (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:576:14)
+    at ServerHttp2Stream.<anonymous> (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:376:18)
+    at ServerHttp2Stream.emit (events.js:412:35)
+    at endReadableNT (internal/streams/readable.js:1333:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21)
+=============================================================
+{"level":30,"time":"2024-04-16T14:58:32.631Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Error of node method  getText"}
+{"level":30,"time":"2024-04-16T14:58:32.649Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Start of node method getText"}
+================= Original suppressed error =================
+TypeError: selector.replaceAll is not a function
+    at findLocator (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:8673:25)
+    at getText (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:9477:25)
+    at PlaywrightServer.getText (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:10708:34)
+    at Object.onReceiveHalfClose (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1273:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:534:31)
+    at BaseServerInterceptingCall.handleEndEvent (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:576:14)
+    at ServerHttp2Stream.<anonymous> (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:376:18)
+    at ServerHttp2Stream.emit (events.js:412:35)
+    at endReadableNT (internal/streams/readable.js:1333:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21)
+=============================================================
+{"level":30,"time":"2024-04-16T14:58:32.649Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Error of node method  getText"}
+{"level":30,"time":"2024-04-16T14:58:32.666Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Start of node method getText"}
+================= Original suppressed error =================
+TypeError: selector.replaceAll is not a function
+    at findLocator (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:8673:25)
+    at getText (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:9477:25)
+    at PlaywrightServer.getText (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:10708:34)
+    at Object.onReceiveHalfClose (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1273:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:534:31)
+    at BaseServerInterceptingCall.handleEndEvent (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:576:14)
+    at ServerHttp2Stream.<anonymous> (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:376:18)
+    at ServerHttp2Stream.emit (events.js:412:35)
+    at endReadableNT (internal/streams/readable.js:1333:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21)
+=============================================================
+{"level":30,"time":"2024-04-16T14:58:32.667Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Error of node method  getText"}
+{"level":30,"time":"2024-04-16T14:58:32.684Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Start of node method getText"}
+================= Original suppressed error =================
+TypeError: selector.replaceAll is not a function
+    at findLocator (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:8673:25)
+    at getText (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:9477:25)
+    at PlaywrightServer.getText (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:10708:34)
+    at Object.onReceiveHalfClose (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1273:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:534:31)
+    at BaseServerInterceptingCall.handleEndEvent (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:576:14)
+    at ServerHttp2Stream.<anonymous> (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:376:18)
+    at ServerHttp2Stream.emit (events.js:412:35)
+    at endReadableNT (internal/streams/readable.js:1333:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21)
+=============================================================
+{"level":30,"time":"2024-04-16T14:58:32.684Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Error of node method  getText"}
+{"level":30,"time":"2024-04-16T14:58:32.699Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Start of node method getText"}
+================= Original suppressed error =================
+TypeError: selector.replaceAll is not a function
+    at findLocator (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:8673:25)
+    at getText (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:9477:25)
+    at PlaywrightServer.getText (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:10708:34)
+    at Object.onReceiveHalfClose (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1273:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:534:31)
+    at BaseServerInterceptingCall.handleEndEvent (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:576:14)
+    at ServerHttp2Stream.<anonymous> (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:376:18)
+    at ServerHttp2Stream.emit (events.js:412:35)
+    at endReadableNT (internal/streams/readable.js:1333:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21)
+=============================================================
+{"level":30,"time":"2024-04-16T14:58:32.700Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Error of node method  getText"}
+{"level":30,"time":"2024-04-16T14:58:32.712Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Start of node method getText"}
+================= Original suppressed error =================
+TypeError: selector.replaceAll is not a function
+    at findLocator (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:8673:25)
+    at getText (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:9477:25)
+    at PlaywrightServer.getText (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:10708:34)
+    at Object.onReceiveHalfClose (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1273:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:534:31)
+    at BaseServerInterceptingCall.handleEndEvent (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:576:14)
+    at ServerHttp2Stream.<anonymous> (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:376:18)
+    at ServerHttp2Stream.emit (events.js:412:35)
+    at endReadableNT (internal/streams/readable.js:1333:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21)
+=============================================================
+{"level":30,"time":"2024-04-16T14:58:32.712Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Error of node method  getText"}
+{"level":30,"time":"2024-04-16T14:58:32.727Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Start of node method getText"}
+================= Original suppressed error =================
+TypeError: selector.replaceAll is not a function
+    at findLocator (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:8673:25)
+    at getText (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:9477:25)
+    at PlaywrightServer.getText (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:10708:34)
+    at Object.onReceiveHalfClose (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1273:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:534:31)
+    at BaseServerInterceptingCall.handleEndEvent (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:576:14)
+    at ServerHttp2Stream.<anonymous> (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:376:18)
+    at ServerHttp2Stream.emit (events.js:412:35)
+    at endReadableNT (internal/streams/readable.js:1333:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21)
+=============================================================
+{"level":30,"time":"2024-04-16T14:58:32.728Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Error of node method  getText"}
+{"level":30,"time":"2024-04-16T14:58:32.743Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Start of node method getText"}
+================= Original suppressed error =================
+TypeError: selector.replaceAll is not a function
+    at findLocator (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:8673:25)
+    at getText (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:9477:25)
+    at PlaywrightServer.getText (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:10708:34)
+    at Object.onReceiveHalfClose (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1273:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:534:31)
+    at BaseServerInterceptingCall.handleEndEvent (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:576:14)
+    at ServerHttp2Stream.<anonymous> (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:376:18)
+    at ServerHttp2Stream.emit (events.js:412:35)
+    at endReadableNT (internal/streams/readable.js:1333:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21)
+=============================================================
+{"level":30,"time":"2024-04-16T14:58:32.744Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Error of node method  getText"}
+{"level":30,"time":"2024-04-16T14:58:32.758Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Start of node method getText"}
+================= Original suppressed error =================
+TypeError: selector.replaceAll is not a function
+    at findLocator (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:8673:25)
+    at getText (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:9477:25)
+    at PlaywrightServer.getText (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:10708:34)
+    at Object.onReceiveHalfClose (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1273:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:534:31)
+    at BaseServerInterceptingCall.handleEndEvent (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:576:14)
+    at ServerHttp2Stream.<anonymous> (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:376:18)
+    at ServerHttp2Stream.emit (events.js:412:35)
+    at endReadableNT (internal/streams/readable.js:1333:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21)
+=============================================================
+{"level":30,"time":"2024-04-16T14:58:32.758Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Error of node method  getText"}
+{"level":30,"time":"2024-04-16T14:58:32.771Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Start of node method getText"}
+================= Original suppressed error =================
+TypeError: selector.replaceAll is not a function
+    at findLocator (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:8673:25)
+    at getText (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:9477:25)
+    at PlaywrightServer.getText (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:10708:34)
+    at Object.onReceiveHalfClose (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1273:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:534:31)
+    at BaseServerInterceptingCall.handleEndEvent (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:576:14)
+    at ServerHttp2Stream.<anonymous> (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:376:18)
+    at ServerHttp2Stream.emit (events.js:412:35)
+    at endReadableNT (internal/streams/readable.js:1333:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21)
+=============================================================
+{"level":30,"time":"2024-04-16T14:58:32.772Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Error of node method  getText"}
+{"level":30,"time":"2024-04-16T14:58:32.784Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Start of node method getText"}
+================= Original suppressed error =================
+TypeError: selector.replaceAll is not a function
+    at findLocator (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:8673:25)
+    at getText (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:9477:25)
+    at PlaywrightServer.getText (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:10708:34)
+    at Object.onReceiveHalfClose (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1273:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:534:31)
+    at BaseServerInterceptingCall.handleEndEvent (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:576:14)
+    at ServerHttp2Stream.<anonymous> (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:376:18)
+    at ServerHttp2Stream.emit (events.js:412:35)
+    at endReadableNT (internal/streams/readable.js:1333:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21)
+=============================================================
+{"level":30,"time":"2024-04-16T14:58:32.785Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Error of node method  getText"}
+{"level":30,"time":"2024-04-16T14:58:32.797Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Start of node method getText"}
+================= Original suppressed error =================
+TypeError: selector.replaceAll is not a function
+    at findLocator (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:8673:25)
+    at getText (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:9477:25)
+    at PlaywrightServer.getText (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:10708:34)
+    at Object.onReceiveHalfClose (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1273:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:534:31)
+    at BaseServerInterceptingCall.handleEndEvent (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:576:14)
+    at ServerHttp2Stream.<anonymous> (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:376:18)
+    at ServerHttp2Stream.emit (events.js:412:35)
+    at endReadableNT (internal/streams/readable.js:1333:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21)
+=============================================================
+{"level":30,"time":"2024-04-16T14:58:32.798Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Error of node method  getText"}
+{"level":30,"time":"2024-04-16T14:58:32.811Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Start of node method getText"}
+================= Original suppressed error =================
+TypeError: selector.replaceAll is not a function
+    at findLocator (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:8673:25)
+    at getText (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:9477:25)
+    at PlaywrightServer.getText (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:10708:34)
+    at Object.onReceiveHalfClose (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1273:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:534:31)
+    at BaseServerInterceptingCall.handleEndEvent (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:576:14)
+    at ServerHttp2Stream.<anonymous> (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:376:18)
+    at ServerHttp2Stream.emit (events.js:412:35)
+    at endReadableNT (internal/streams/readable.js:1333:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21)
+=============================================================
+{"level":30,"time":"2024-04-16T14:58:32.811Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Error of node method  getText"}
+{"level":30,"time":"2024-04-16T14:58:32.824Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Start of node method getText"}
+================= Original suppressed error =================
+TypeError: selector.replaceAll is not a function
+    at findLocator (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:8673:25)
+    at getText (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:9477:25)
+    at PlaywrightServer.getText (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:10708:34)
+    at Object.onReceiveHalfClose (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1273:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:534:31)
+    at BaseServerInterceptingCall.handleEndEvent (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:576:14)
+    at ServerHttp2Stream.<anonymous> (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:376:18)
+    at ServerHttp2Stream.emit (events.js:412:35)
+    at endReadableNT (internal/streams/readable.js:1333:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21)
+=============================================================
+{"level":30,"time":"2024-04-16T14:58:32.824Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Error of node method  getText"}
+{"level":30,"time":"2024-04-16T14:58:32.839Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Start of node method getText"}
+================= Original suppressed error =================
+TypeError: selector.replaceAll is not a function
+    at findLocator (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:8673:25)
+    at getText (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:9477:25)
+    at PlaywrightServer.getText (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:10708:34)
+    at Object.onReceiveHalfClose (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1273:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:534:31)
+    at BaseServerInterceptingCall.handleEndEvent (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:576:14)
+    at ServerHttp2Stream.<anonymous> (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:376:18)
+    at ServerHttp2Stream.emit (events.js:412:35)
+    at endReadableNT (internal/streams/readable.js:1333:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21)
+=============================================================
+{"level":30,"time":"2024-04-16T14:58:32.839Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Error of node method  getText"}
+{"level":30,"time":"2024-04-16T14:58:32.853Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Start of node method getText"}
+================= Original suppressed error =================
+TypeError: selector.replaceAll is not a function
+    at findLocator (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:8673:25)
+    at getText (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:9477:25)
+    at PlaywrightServer.getText (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:10708:34)
+    at Object.onReceiveHalfClose (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1273:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:534:31)
+    at BaseServerInterceptingCall.handleEndEvent (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:576:14)
+    at ServerHttp2Stream.<anonymous> (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:376:18)
+    at ServerHttp2Stream.emit (events.js:412:35)
+    at endReadableNT (internal/streams/readable.js:1333:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21)
+=============================================================
+{"level":30,"time":"2024-04-16T14:58:32.854Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Error of node method  getText"}
+{"level":30,"time":"2024-04-16T14:58:32.870Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Start of node method getText"}
+================= Original suppressed error =================
+TypeError: selector.replaceAll is not a function
+    at findLocator (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:8673:25)
+    at getText (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:9477:25)
+    at PlaywrightServer.getText (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:10708:34)
+    at Object.onReceiveHalfClose (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1273:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:534:31)
+    at BaseServerInterceptingCall.handleEndEvent (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:576:14)
+    at ServerHttp2Stream.<anonymous> (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:376:18)
+    at ServerHttp2Stream.emit (events.js:412:35)
+    at endReadableNT (internal/streams/readable.js:1333:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21)
+=============================================================
+{"level":30,"time":"2024-04-16T14:58:32.870Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Error of node method  getText"}
+{"level":30,"time":"2024-04-16T14:58:32.886Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Start of node method getText"}
+================= Original suppressed error =================
+TypeError: selector.replaceAll is not a function
+    at findLocator (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:8673:25)
+    at getText (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:9477:25)
+    at PlaywrightServer.getText (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:10708:34)
+    at Object.onReceiveHalfClose (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1273:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:534:31)
+    at BaseServerInterceptingCall.handleEndEvent (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:576:14)
+    at ServerHttp2Stream.<anonymous> (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:376:18)
+    at ServerHttp2Stream.emit (events.js:412:35)
+    at endReadableNT (internal/streams/readable.js:1333:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21)
+=============================================================
+{"level":30,"time":"2024-04-16T14:58:32.887Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Error of node method  getText"}
+{"level":30,"time":"2024-04-16T14:58:32.904Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Start of node method getText"}
+================= Original suppressed error =================
+TypeError: selector.replaceAll is not a function
+    at findLocator (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:8673:25)
+    at getText (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:9477:25)
+    at PlaywrightServer.getText (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:10708:34)
+    at Object.onReceiveHalfClose (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1273:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:534:31)
+    at BaseServerInterceptingCall.handleEndEvent (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:576:14)
+    at ServerHttp2Stream.<anonymous> (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:376:18)
+    at ServerHttp2Stream.emit (events.js:412:35)
+    at endReadableNT (internal/streams/readable.js:1333:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21)
+=============================================================
+{"level":30,"time":"2024-04-16T14:58:32.904Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Error of node method  getText"}
+{"level":30,"time":"2024-04-16T14:58:32.933Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2024-04-16T14:58:32.933Z","pid":185322,"hostname":"IzabelaKasiarz","Take screenshot with options: ":{"path":"/home/ikqa/robot/rf-katas/robot/browser/screenshot/fail-screenshot-2.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
+{"level":30,"time":"2024-04-16T14:58:33.025Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2024-04-16T14:58:34.040Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2024-04-16T14:58:34.040Z","pid":185322,"hostname":"IzabelaKasiarz","Take screenshot with options: ":{"path":"/home/ikqa/robot/rf-katas/robot/browser/screenshot/fail-screenshot-3.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
+{"level":30,"time":"2024-04-16T14:58:34.123Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2024-04-16T14:58:35.140Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2024-04-16T14:58:35.140Z","pid":185322,"hostname":"IzabelaKasiarz","Take screenshot with options: ":{"path":"/home/ikqa/robot/rf-katas/robot/browser/screenshot/fail-screenshot-4.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
+{"level":30,"time":"2024-04-16T14:58:35.230Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2024-04-16T14:58:35.234Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Start of node method click"}
+================= Original suppressed error =================
+TypeError: selector.replaceAll is not a function
+    at findLocator (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:8673:25)
+    at internalClick (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:9756:25)
+    at click (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:9739:24)
+    at PlaywrightServer.click (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:10708:34)
+    at Object.onReceiveHalfClose (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1273:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:534:31)
+    at BaseServerInterceptingCall.handleEndEvent (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:576:14)
+    at ServerHttp2Stream.<anonymous> (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:376:18)
+    at ServerHttp2Stream.emit (events.js:412:35)
+    at endReadableNT (internal/streams/readable.js:1333:12)
+=============================================================
+{"level":30,"time":"2024-04-16T14:58:35.234Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Error of node method  click"}
+{"level":30,"time":"2024-04-16T14:58:35.236Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2024-04-16T14:58:35.236Z","pid":185322,"hostname":"IzabelaKasiarz","Take screenshot with options: ":{"path":"/home/ikqa/robot/rf-katas/robot/browser/screenshot/fail-screenshot-5.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
+{"level":30,"time":"2024-04-16T14:58:35.323Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2024-04-16T14:58:35.335Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-04-16T14:58:35.338Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-04-16T14:58:35.339Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-04-16T14:58:35.342Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-04-16T14:58:35.344Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Changed active context"}
+{"level":30,"time":"2024-04-16T14:58:35.345Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Changing current active page: page=c400e3f4-1589-4325-8036-34714ff045fe"}
+{"level":30,"time":"2024-04-16T14:58:35.345Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Changed active page"}
+{"level":30,"time":"2024-04-16T14:58:35.348Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-04-16T14:58:35.351Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-04-16T14:58:35.352Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2024-04-16T14:58:35.353Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2024-04-16T14:58:35.355Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2024-04-16T14:58:35.355Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2024-04-16T14:58:35.357Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Changing current active page: page=c400e3f4-1589-4325-8036-34714ff045fe"}
+{"level":30,"time":"2024-04-16T14:58:35.357Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Changed active page"}
+{"level":30,"time":"2024-04-16T14:58:35.360Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-04-16T14:58:35.362Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-04-16T14:58:35.364Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Changed active context"}
+{"level":30,"time":"2024-04-16T14:58:35.364Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Changing current active page: page=c400e3f4-1589-4325-8036-34714ff045fe"}
+{"level":30,"time":"2024-04-16T14:58:35.364Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Changed active page"}
+{"level":30,"time":"2024-04-16T14:58:35.367Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Start of node method closeContext"}
+{"level":30,"time":"2024-04-16T14:58:35.374Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Removed page=931d8119-a73c-4141-9b94-2d2b446cef78 from context=a49212ea-e533-4c38-9ba9-32a74487541e page stack"}
+{"level":30,"time":"2024-04-16T14:58:35.382Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"End of node method closeContext"}
+{"level":30,"time":"2024-04-16T14:58:35.386Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-04-16T14:58:35.386Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-04-16T14:58:35.389Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2024-04-16T14:58:35.390Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2024-04-16T14:58:35.393Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Start of node method newPage"}
+{"level":30,"time":"2024-04-16T14:58:35.393Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2024-04-16T14:58:35.402Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Changed active context"}
+{"level":30,"time":"2024-04-16T14:58:35.476Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Video path: undefined"}
+{"level":30,"time":"2024-04-16T14:58:35.476Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Changed active page"}
+{"level":30,"time":"2024-04-16T14:58:35.526Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"End of node method newPage"}
+{"level":30,"time":"2024-04-16T14:58:35.534Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Start of node method fillText"}
+================= Original suppressed error =================
+TypeError: selector.replaceAll is not a function
+    at findLocator (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:8673:25)
+    at fillText (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:9714:25)
+    at PlaywrightServer.fillText (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:10708:34)
+    at Object.onReceiveHalfClose (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1273:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:534:31)
+    at BaseServerInterceptingCall.handleEndEvent (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:576:14)
+    at ServerHttp2Stream.<anonymous> (/home/ikqa/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:376:18)
+    at ServerHttp2Stream.emit (events.js:412:35)
+    at endReadableNT (internal/streams/readable.js:1333:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21)
+=============================================================
+{"level":30,"time":"2024-04-16T14:58:35.534Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Error of node method  fillText"}
+{"level":30,"time":"2024-04-16T14:58:35.539Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2024-04-16T14:58:35.539Z","pid":185322,"hostname":"IzabelaKasiarz","Take screenshot with options: ":{"path":"/home/ikqa/robot/rf-katas/robot/browser/screenshot/fail-screenshot-6.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
+{"level":30,"time":"2024-04-16T14:58:35.662Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2024-04-16T14:58:35.669Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-04-16T14:58:35.671Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-04-16T14:58:35.673Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-04-16T14:58:35.675Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-04-16T14:58:35.677Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Changed active context"}
+{"level":30,"time":"2024-04-16T14:58:35.677Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Changing current active page: page=29d6e052-1548-45e6-8189-c27d3bf4963f"}
+{"level":30,"time":"2024-04-16T14:58:35.677Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Changed active page"}
+{"level":30,"time":"2024-04-16T14:58:35.682Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-04-16T14:58:35.685Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-04-16T14:58:35.686Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2024-04-16T14:58:35.687Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2024-04-16T14:58:35.688Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2024-04-16T14:58:35.689Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2024-04-16T14:58:35.691Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Changing current active page: page=29d6e052-1548-45e6-8189-c27d3bf4963f"}
+{"level":30,"time":"2024-04-16T14:58:35.691Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Changed active page"}
+{"level":30,"time":"2024-04-16T14:58:35.694Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-04-16T14:58:35.697Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-04-16T14:58:35.698Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Changed active context"}
+{"level":30,"time":"2024-04-16T14:58:35.698Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Changing current active page: page=29d6e052-1548-45e6-8189-c27d3bf4963f"}
+{"level":30,"time":"2024-04-16T14:58:35.698Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Changed active page"}
+{"level":30,"time":"2024-04-16T14:58:35.701Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Start of node method closeContext"}
+{"level":30,"time":"2024-04-16T14:58:35.707Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Removed page=37e14fb6-5845-4da7-99db-916bf970c3bc from context=69118ef3-1561-40be-9b5f-dc7f429e030e page stack"}
+{"level":30,"time":"2024-04-16T14:58:35.716Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"End of node method closeContext"}
+{"level":30,"time":"2024-04-16T14:58:35.721Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-04-16T14:58:35.721Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-04-16T14:58:35.747Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2024-04-16T14:58:35.906Z","pid":185322,"hostname":"IzabelaKasiarz","msg":"End of node method closeAllBrowsers"}
