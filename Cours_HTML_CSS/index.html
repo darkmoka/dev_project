@@ -6,24 +6,38 @@
     <!--Ceci est un commentaire-->
     <!--En-tête-->
     <!--Head explique le contenu de la page avec un titre (onglet) et renseignement SEO-->
-        <title>Titre de la page</title>
+        <title>Moka est la plus belle</title>
     </head>
     <body>
     <!-- Titres et paragraphes -->
-
+        <div style="color: pink;background-color: violet;">
+            <h1>Sommaire de la page</h1>
+            <!--Lien vers une sction de la page-->
+            <a href="#section1">Lien vers la section 1</a><br>
+            <a href="#section2">Lien vers la section 2</a><br>
+            <a href="#section3">Lien vers la section 3</a><br>
+        </div>
+        <div style="color: brown;background-color: beige;">
         <section id="section1">
 
             <h1>Section 1</h1>
             <!--Heading est un titre ou un sous-titre, niveau de titre de 1 à 6-->
 
-            <p>Dans la section 1, ceci est un long paragraphe, <br> sur trois <br> lignes</p>
+            <p>Dans la section 1, ceci est un long paragraphe, <br>sur trois <br>lignes</p>
             <!--p est un paragraphe-->
             <!--br est un line break-->
 
-            <a href="http://google.com" target="_blank" >le site de google</a>
-            <!--<a> est un texte lié à un lien hypertexte-->
+            <img src"image/chat_img.png" alt="tête de chat roux"><br><br>
+
+            <a href="http://google.com" target="_blank" >le site de google</a><br><br>
+
+            <a href="http://google.com" target="_blank" >
+                <img src"image/chat_img.png" alt="tête de chat roux">
+            </a>
+
+            <!--<a>est un texte lié à un lien hypertexte-->
             <!--target="_blank sert à rediriger le lien vers un nouvel onglet vide-->
-        <br><br><br><br><br><br><br><br><br>
+        <br><br><br><br>
         </section>
 
         <section id="section2">
@@ -31,14 +45,14 @@
             <h1>Section 2</h1>
             <!--Heading est un titre ou un sous-titre, niveau de titre de 1 à 6-->
 
-            <p>Dans la section 2, ceci est un long paragraphe, <br> sur trois <br> lignes</p>
+            <p>Dans la section 2, ceci est un long paragraphe, <br>sur trois <br>lignes</p>
             <!--p est un paragraphe-->
             <!--br est un line break-->
 
             <a href="http://google.com" target="_blank" >le site de google</a>
-            <!--<a> est un texte lié à un lien hypertexte-->
+            <!--<a>est un texte lié à un lien hypertexte-->
             <!--target="_blank sert à rediriger le lien vers un nouvel onglet vide-->
-            <br><br><br><br><br><br><br><br><br>
+            <br><br><br><br>
         </section>
 
         <section id="section3">
@@ -46,16 +60,96 @@
             <h1>Section 3</h1>
             <!--Heading est un titre ou un sous-titre, niveau de titre de 1 à 6-->
 
-            <p>Dans la section 3, ceci est un long paragraphe, <br> sur trois <br> lignes</p>
+            <p>Dans la section 3, ceci est un long paragraphe, <br>sur trois <br>lignes</p>
             <!--p est un paragraphe-->
             <!--br est un line break-->
 
             <a href="http://google.com" target="_blank" >le site de google</a>
-            <!--<a> est un texte lié à un lien hypertexte-->
+            <!--<a>est un texte lié à un lien hypertexte-->
             <!--target="_blank sert à rediriger le lien vers un nouvel onglet vide-->
-            <br><br><br><br><br><br><br><br><br>
+            <br><br><br><br>
         </section>
 
+        <section id="section4">
+
+            <h1>Section 4 : les listes</h1>
+            <!--Heading est un titre ou un sous-titre, niveau de titre de 1 à 6-->
+            <ol>Liste ordonnée
+                <li>Etape 1</li>
+                <li>Etape 2</li>
+                <li>Etape 3</li>
+                <li>Etape 4</li>
+            </ol>
+
+            <ul>Liste désordonnées
+                <li>Etape 1</li>
+                <ol>Liste ordonnée
+                    <li>Etape 1</li>
+                    <ol>Liste ordonnée
+                        <li>Etape 1</li>
+                        <li>Etape 2</li>
+                        <li>Etape 3</li>
+                        <li>Etape 4</li>
+                    </ol>
+                    <li>Etape 2</li>
+                    <li>Etape 3</li>
+                    <li>Etape 4</li>
+                </ol>
+                <li>Etape 3</li>
+                <li>Etape 2</li>
+            </ul>
+
+            <p style="color:pink;font-size: 30px;background-color: aquamarine; text-align: center;">
+                Dans la section 4, ceci est un <span style="font-weight: bold"> paragraphe </span> <span style="font-size: 60px"> sur </span> <br> trois <br> lignes
+            </p>
+            <!--p est un paragraphe-->
+            <!--br est un line break-->
+
+            <a href="http://google.com" target="_blank" >le site de google</a>
+            <!--<a>est un texte lié à un lien hypertexte-->
+            <!--target="_blank sert à rediriger le lien vers un nouvel onglet vide-->
+            <br><br><br><br>
+        </section>
+        </div>
+        <section id="section5">
+        <div style="color: blueviolet;background-color: burlywood;">
+            <h1> Mon premier formulaire</h1>
+            <p> Mon paragraphe dans formulaire</p>
+            <form>
+                <label for=""nom">nom:</label>
+                <input id="nom" type"text" name="nom" placeholder="tape ton nom">
+            </form>
+            <br> 
+            <form>
+                <label for="commentaire">commentaire</label>
+                <textarea cols="50" rows="20" placeholder="donnez moi vos impression"></textarea>
+            </form>
+            <form>
+                <input type="checkbox" value="vélo">vélo 
+                <br>
+                <input type="checkbox" value="voiture" checked>voiture
+                <br>
+                <input type="checkbox" value="pieds">pieds
+            </form>
+            <form>
+                <input type="radio" value="Madame" name="sexe">Madame
+                <br>
+                <input type="radio" value="Monsieur" name="sexe">Monsieur
+            </form>
+            <form>
+                <select name="voiture">
+                    <option value="A">A</option>
+                    <option value="B">B</option>
+                    <option value="C">C</option>
+                    <option value="D">D</option>
+                    <option value="E"></option>
+                </select>
+            </form>
+            <form>
+                <input type="submit" value="valider">
+            <form>
+        </div>
+        </section>
     <footer>
     <!--Pied de page-->
     </footer>

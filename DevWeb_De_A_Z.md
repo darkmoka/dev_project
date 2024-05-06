@@ -2,7 +2,7 @@
 
 ## Introduction au dev web et mise en place
   - Préconditions : 
-    - installer live server sur VScode : access : http://localhost:5500/
+    - installer live server sur VScode : access : http://localhost:5500/ : http://127.0.0.1:5500/ 
     - pas de par coeur, que des concepts globaux
 
 ## Création d'un site web - HTML | CSS 
