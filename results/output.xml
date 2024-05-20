@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0 (Python 3.11.2 on linux)" generated="2024-05-16T18:57:22.141422" rpa="false" schemaversion="5">
+<suite id="s1" name="Dev Project" source="/home/darkmoka/github/dev_project">
+<suite id="s1-s1" name="Robot Framework" source="/home/darkmoka/github/dev_project/Robot_Framework">
+<suite id="s1-s1-s1" name="Ioterop tests poc" source="/home/darkmoka/github/dev_project/Robot_Framework/Ioterop_tests_poc">
+<suite id="s1-s1-s1-s1" name="Test" source="/home/darkmoka/github/dev_project/Robot_Framework/Ioterop_tests_poc/test.robot">
+<test id="s1-s1-s1-s1-t1" name="Successfull login as Customer" line="13">
+<kw name="Open Chrome">
+<kw name="Open Browser" owner="Browser">
+<msg time="2024-05-16T18:57:22.697341" level="WARN">Open Browser is for quick experimentation and debugging only. Use New Page for production.</msg>
+<msg time="2024-05-16T18:57:22.698691" level="INFO">{"browser": "chromium", "headless": false, "chromiumSandbox": false, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 0.0, "timeout": 30000.0, "tracesDir": "/home/darkmoka/github/dev_project/results/browser/traces/e3579b2a-a891-4d2a-8223-e9d945e5780d"}</msg>
+<msg time="2024-05-16T18:57:23.001690" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":false,"chromiumSandbox":false,"devtools":false,"handleSIGHUP":true,"handleSIGINT":true,"handleSIGTERM":true,"slowMo":0,"timeout":30000,"tracesDir":"/home/darkmoka/github/dev_project/results/browser/traces/e3579b2a-a891-4d2a-8223-e9d945e5780d"}</msg>
+<msg time="2024-05-16T18:57:23.002045" level="INFO">{
+  "acceptDownloads": true,
+  "bypassCSP": true,
+  "forcedColors": "none",
+  "ignoreHTTPSErrors": false,
+  "javaScriptEnabled": true,
+  "offline": false,
+  "reducedMotion": "no-preference",
+  "serviceWorkers": "allow",
+  "viewport": {
+    "height": 720,
+    "width": 1280
+  }
+}</msg>
+<msg time="2024-05-16T18:57:23.025233" level="INFO">Successfully created context. </msg>
+<msg time="2024-05-16T18:57:23.025432" level="INFO">{'acceptDownloads': True, 'bypassCSP': True, 'forcedColors': 'none', 'ignoreHTTPSErrors': False, 'javaScriptEnabled': True, 'offline': False, 'reducedMotion': 'no-preference', 'serviceWorkers': 'allow', 'viewport': {'height': 720, 'width': 1280}}</msg>
+<msg time="2024-05-16T18:57:30.149916" level="INFO">Successfully initialized new page object and opened url: https://accounts.ioterop.com/login</msg>
+<arg>url=${URL}</arg>
+<arg>browser=${BROWSER}</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Opens a new browser instance. Use this keyword for quick experiments or debugging sessions.</doc>
+<status status="PASS" start="2024-05-16T18:57:22.696662" elapsed="7.453677"/>
+</kw>
+<arg>${BROWSER}</arg>
+<arg>${URL}</arg>
+<status status="PASS" start="2024-05-16T18:57:22.695901" elapsed="7.454719"/>
+</kw>
+<kw name="Type customer login">
+<kw name="Type Text" owner="Browser">
+<msg time="2024-05-16T18:57:30.152889" level="INFO">Types the text 'Customer1IoTerop' in the given field.</msg>
+<arg>xpath=//*[@id="username"]</arg>
+<arg>${CUSTOMER}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Types the given ``txt`` into the text field found by ``selector``.</doc>
+<status status="PASS" start="2024-05-16T18:57:30.152093" elapsed="0.174426"/>
+</kw>
+<kw name="Type Text" owner="Browser">
+<msg time="2024-05-16T18:57:30.327630" level="INFO">Types the text 'Customer1IoTerop!' in the given field.</msg>
+<arg>xpath=//*[@id="password"]</arg>
+<arg>${PASS}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Types the given ``txt`` into the text field found by ``selector``.</doc>
+<status status="PASS" start="2024-05-16T18:57:30.326893" elapsed="0.183143"/>
+</kw>
+<kw name="Click" owner="Browser">
+<msg time="2024-05-16T18:57:30.511571" level="INFO">Clicks the element 'xpath=/html/body/div/div/div[2]/form/button'.</msg>
+<arg>xpath=/html/body/div/div/div[2]/form/button</arg>
+<arg>left</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2024-05-16T18:57:30.510439" elapsed="0.956097"/>
+</kw>
+<arg>${CUSTOMER}</arg>
+<arg>${PASS}</arg>
+<status status="PASS" start="2024-05-16T18:57:30.151441" elapsed="1.315315"/>
+</kw>
+<kw name="Login succeded">
+<kw name="Wait For Elements State" owner="Browser">
+<msg time="2024-05-16T18:57:34.173498" level="INFO">Waited for Element with selector xpath=/html/body/app-root/app-full-layout/mat-sidenav-container/mat-sidenav-content/div[2]/app-homepage/div/div/div/app-overview/h2 at state visible</msg>
+<arg>xpath=/html/body/app-root/app-full-layout/mat-sidenav-container/mat-sidenav-content/div[2]/app-homepage/div/div/div/app-overview/h2</arg>
+<arg>message=Overview</arg>
+<tag>PageContent</tag>
+<tag>Wait</tag>
+<doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
+<status status="PASS" start="2024-05-16T18:57:31.467405" elapsed="2.706535"/>
+</kw>
+<kw name="Get Text" owner="Browser">
+<msg time="2024-05-16T18:57:34.222748" level="INFO">Text: 'Overview'</msg>
+<arg>xpath=/html/body/app-root/app-full-layout/mat-sidenav-container/mat-sidenav-content/div[2]/app-homepage/div/div/div/app-overview/h2</arg>
+<arg>message=OVERVIEW</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns text attribute of the element found by ``selector``.</doc>
+<status status="PASS" start="2024-05-16T18:57:34.174325" elapsed="0.048708"/>
+</kw>
+<status status="PASS" start="2024-05-16T18:57:31.467056" elapsed="2.756203"/>
+</kw>
+<status status="PASS" start="2024-05-16T18:57:22.693247" elapsed="11.530694"/>
+</test>
+<status status="PASS" start="2024-05-16T18:57:22.160684" elapsed="12.187341"/>
+</suite>
+<status status="PASS" start="2024-05-16T18:57:22.159119" elapsed="12.200136"/>
+</suite>
+<status status="PASS" start="2024-05-16T18:57:22.157911" elapsed="12.204529"/>
+</suite>
+<status status="PASS" start="2024-05-16T18:57:22.143315" elapsed="12.222019"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Dev Project">Dev Project</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s1" name="Robot Framework">Dev Project.Robot Framework</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s1-s1" name="Ioterop tests poc">Dev Project.Robot Framework.Ioterop tests poc</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s1-s1-s1" name="Test">Dev Project.Robot Framework.Ioterop tests poc.Test</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2024-05-16T18:57:22.697341" level="WARN">Open Browser is for quick experimentation and debugging only. Use New Page for production.</msg>
+</errors>
+</robot>

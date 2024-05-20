@@ -1,0 +1,64 @@
+{"level":30,"time":"2024-05-16T16:57:22.582Z","pid":12374,"hostname":"HeYaA","msg":"Listening on 35929"}
+(node:12374) DeprecationWarning: Calling start() is no longer necessary. It can be safely omitted.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+{"level":30,"time":"2024-05-16T16:57:22.691Z","pid":12374,"hostname":"HeYaA","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-05-16T16:57:22.692Z","pid":12374,"hostname":"HeYaA","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-05-16T16:57:22.694Z","pid":12374,"hostname":"HeYaA","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-05-16T16:57:22.694Z","pid":12374,"hostname":"HeYaA","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-05-16T16:57:22.701Z","pid":12374,"hostname":"HeYaA","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2024-05-16T16:57:22.999Z","pid":12374,"hostname":"HeYaA","msg":"Adding browser to stack: chromium, version: 124.0.6367.29"}
+{"level":30,"time":"2024-05-16T16:57:23.000Z","pid":12374,"hostname":"HeYaA","msg":"End of node method newBrowser"}
+{"level":30,"time":"2024-05-16T16:57:23.000Z","pid":12374,"hostname":"HeYaA","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2024-05-16T16:57:23.004Z","pid":12374,"hostname":"HeYaA","msg":"Start of node method newContext"}
+{"level":30,"time":"2024-05-16T16:57:23.004Z","pid":12374,"hostname":"HeYaA","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2024-05-16T16:57:23.004Z","pid":12374,"hostname":"HeYaA","msg":"Trace file: "}
+{"level":30,"time":"2024-05-16T16:57:23.022Z","pid":12374,"hostname":"HeYaA","msg":"Changed active context"}
+{"level":30,"time":"2024-05-16T16:57:23.023Z","pid":12374,"hostname":"HeYaA","msg":"End of node method newContext"}
+{"level":30,"time":"2024-05-16T16:57:23.027Z","pid":12374,"hostname":"HeYaA","msg":"Start of node method newPage"}
+{"level":30,"time":"2024-05-16T16:57:23.027Z","pid":12374,"hostname":"HeYaA","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2024-05-16T16:57:23.230Z","pid":12374,"hostname":"HeYaA","msg":"Video path: undefined"}
+{"level":30,"time":"2024-05-16T16:57:23.231Z","pid":12374,"hostname":"HeYaA","msg":"Changed active page"}
+{"level":30,"time":"2024-05-16T16:57:30.148Z","pid":12374,"hostname":"HeYaA","msg":"End of node method newPage"}
+{"level":30,"time":"2024-05-16T16:57:30.155Z","pid":12374,"hostname":"HeYaA","msg":"Start of node method typeText"}
+{"level":30,"time":"2024-05-16T16:57:30.156Z","pid":12374,"hostname":"HeYaA","msg":"Strict mode is enabled, find Locator with xpath=//*[@id=\"username\"] in page."}
+{"level":30,"time":"2024-05-16T16:57:30.324Z","pid":12374,"hostname":"HeYaA","msg":"End of node method typeText"}
+{"level":30,"time":"2024-05-16T16:57:30.332Z","pid":12374,"hostname":"HeYaA","msg":"Start of node method typeText"}
+{"level":30,"time":"2024-05-16T16:57:30.333Z","pid":12374,"hostname":"HeYaA","msg":"Strict mode is enabled, find Locator with xpath=//*[@id=\"password\"] in page."}
+{"level":30,"time":"2024-05-16T16:57:30.508Z","pid":12374,"hostname":"HeYaA","msg":"End of node method typeText"}
+{"level":30,"time":"2024-05-16T16:57:30.514Z","pid":12374,"hostname":"HeYaA","msg":"Start of node method click"}
+{"level":30,"time":"2024-05-16T16:57:30.515Z","pid":12374,"hostname":"HeYaA","msg":"Strict mode is enabled, find Locator with xpath=/html/body/div/div/div[2]/form/button in page."}
+{"level":30,"time":"2024-05-16T16:57:31.464Z","pid":12374,"hostname":"HeYaA","msg":"End of node method click"}
+{"level":30,"time":"2024-05-16T16:57:31.469Z","pid":12374,"hostname":"HeYaA","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2024-05-16T16:57:31.470Z","pid":12374,"hostname":"HeYaA","msg":"Strict mode is enabled, find Locator with xpath=/html/body/app-root/app-full-layout/mat-sidenav-container/mat-sidenav-content/div[2]/app-homepage/div/div/div/app-overview/h2 in page."}
+{"level":30,"time":"2024-05-16T16:57:34.172Z","pid":12374,"hostname":"HeYaA","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2024-05-16T16:57:34.177Z","pid":12374,"hostname":"HeYaA","msg":"Start of node method getText"}
+{"level":30,"time":"2024-05-16T16:57:34.177Z","pid":12374,"hostname":"HeYaA","msg":"Strict mode is enabled, find Locator with xpath=/html/body/app-root/app-full-layout/mat-sidenav-container/mat-sidenav-content/div[2]/app-homepage/div/div/div/app-overview/h2 in page."}
+{"level":30,"time":"2024-05-16T16:57:34.221Z","pid":12374,"hostname":"HeYaA","msg":"Retrieved text for element xpath=/html/body/app-root/app-full-layout/mat-sidenav-container/mat-sidenav-content/div[2]/app-homepage/div/div/div/app-overview/h2 containing Overview"}
+{"level":30,"time":"2024-05-16T16:57:34.221Z","pid":12374,"hostname":"HeYaA","msg":"End of node method getText"}
+{"level":30,"time":"2024-05-16T16:57:34.234Z","pid":12374,"hostname":"HeYaA","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-05-16T16:57:34.238Z","pid":12374,"hostname":"HeYaA","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-05-16T16:57:34.242Z","pid":12374,"hostname":"HeYaA","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-05-16T16:57:34.245Z","pid":12374,"hostname":"HeYaA","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-05-16T16:57:34.248Z","pid":12374,"hostname":"HeYaA","msg":"Changed active context"}
+{"level":30,"time":"2024-05-16T16:57:34.248Z","pid":12374,"hostname":"HeYaA","msg":"Changing current active page: page=a9020812-ca2b-4a7f-8d31-9de3cc4f2984"}
+{"level":30,"time":"2024-05-16T16:57:34.248Z","pid":12374,"hostname":"HeYaA","msg":"Changed active page"}
+{"level":30,"time":"2024-05-16T16:57:34.255Z","pid":12374,"hostname":"HeYaA","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-05-16T16:57:34.258Z","pid":12374,"hostname":"HeYaA","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-05-16T16:57:34.260Z","pid":12374,"hostname":"HeYaA","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2024-05-16T16:57:34.261Z","pid":12374,"hostname":"HeYaA","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2024-05-16T16:57:34.263Z","pid":12374,"hostname":"HeYaA","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2024-05-16T16:57:34.264Z","pid":12374,"hostname":"HeYaA","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2024-05-16T16:57:34.267Z","pid":12374,"hostname":"HeYaA","msg":"Changing current active page: page=a9020812-ca2b-4a7f-8d31-9de3cc4f2984"}
+{"level":30,"time":"2024-05-16T16:57:34.267Z","pid":12374,"hostname":"HeYaA","msg":"Changed active page"}
+{"level":30,"time":"2024-05-16T16:57:34.274Z","pid":12374,"hostname":"HeYaA","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-05-16T16:57:34.277Z","pid":12374,"hostname":"HeYaA","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-05-16T16:57:34.279Z","pid":12374,"hostname":"HeYaA","msg":"Changed active context"}
+{"level":30,"time":"2024-05-16T16:57:34.279Z","pid":12374,"hostname":"HeYaA","msg":"Changing current active page: page=a9020812-ca2b-4a7f-8d31-9de3cc4f2984"}
+{"level":30,"time":"2024-05-16T16:57:34.279Z","pid":12374,"hostname":"HeYaA","msg":"Changed active page"}
+{"level":30,"time":"2024-05-16T16:57:34.282Z","pid":12374,"hostname":"HeYaA","msg":"Start of node method closeContext"}
+{"level":30,"time":"2024-05-16T16:57:34.293Z","pid":12374,"hostname":"HeYaA","msg":"Removed page=daab7429-7a94-41bf-8b87-7a371c39c544 from context=2a24c9d9-aa52-4d10-bcc6-279dfa82574a page stack"}
+{"level":30,"time":"2024-05-16T16:57:34.339Z","pid":12374,"hostname":"HeYaA","msg":"End of node method closeContext"}
+{"level":30,"time":"2024-05-16T16:57:34.355Z","pid":12374,"hostname":"HeYaA","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-05-16T16:57:34.355Z","pid":12374,"hostname":"HeYaA","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-05-16T16:57:34.401Z","pid":12374,"hostname":"HeYaA","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2024-05-16T16:57:34.493Z","pid":12374,"hostname":"HeYaA","msg":"End of node method closeAllBrowsers"}

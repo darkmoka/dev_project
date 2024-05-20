@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0 (Python 3.11.2 on linux)" generated="2024-05-16T18:50:33.749571" rpa="false" schemaversion="5">
+<suite id="s1" name="Test" source="/home/darkmoka/github/dev_project/Robot_Framework/Ioterop_tests_poc/test.robot">
+<test id="s1-t1" name="Successfull login as Customer" line="13">
+<kw name="Open Chrome">
+<kw name="Open Browser" owner="Browser">
+<msg time="2024-05-16T18:50:34.279585" level="WARN">Open Browser is for quick experimentation and debugging only. Use New Page for production.</msg>
+<msg time="2024-05-16T18:50:34.279962" level="INFO">{"browser": "chromium", "headless": false, "chromiumSandbox": false, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 0.0, "timeout": 30000.0, "tracesDir": "/home/darkmoka/github/dev_project/Robot_Framework/Ioterop_tests_poc/browser/traces/8ee5c1b5-03c7-4f25-8856-46ec50f7e522"}</msg>
+<msg time="2024-05-16T18:50:34.586510" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":false,"chromiumSandbox":false,"devtools":false,"handleSIGHUP":true,"handleSIGINT":true,"handleSIGTERM":true,"slowMo":0,"timeout":30000,"tracesDir":"/home/darkmoka/github/dev_project/Robot_Framework/Ioterop_tests_poc/browser/traces/8ee5c1b5-03c7-4f25-8856-46ec50f7e522"}</msg>
+<msg time="2024-05-16T18:50:34.586788" level="INFO">{
+  "acceptDownloads": true,
+  "bypassCSP": true,
+  "forcedColors": "none",
+  "ignoreHTTPSErrors": false,
+  "javaScriptEnabled": true,
+  "offline": false,
+  "reducedMotion": "no-preference",
+  "serviceWorkers": "allow",
+  "viewport": {
+    "width": 1280,
+    "height": 720
+  }
+}</msg>
+<msg time="2024-05-16T18:50:34.607660" level="INFO">Successfully created context. </msg>
+<msg time="2024-05-16T18:50:34.607742" level="INFO">{'acceptDownloads': True, 'bypassCSP': True, 'forcedColors': 'none', 'ignoreHTTPSErrors': False, 'javaScriptEnabled': True, 'offline': False, 'reducedMotion': 'no-preference', 'serviceWorkers': 'allow', 'viewport': {'width': 1280, 'height': 720}}</msg>
+<msg time="2024-05-16T18:50:38.696435" level="INFO">Successfully initialized new page object and opened url: https://accounts.ioterop.com/login</msg>
+<arg>url=${URL}</arg>
+<arg>browser=${BROWSER}</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Opens a new browser instance. Use this keyword for quick experiments or debugging sessions.</doc>
+<status status="PASS" start="2024-05-16T18:50:34.279021" elapsed="4.417691"/>
+</kw>
+<arg>${BROWSER}</arg>
+<arg>${URL}</arg>
+<status status="PASS" start="2024-05-16T18:50:34.278234" elapsed="4.418766"/>
+</kw>
+<kw name="Type customer login">
+<kw name="Type Text" owner="Browser">
+<msg time="2024-05-16T18:50:38.698517" level="INFO">Types the text 'CustomerIoTerop1' in the given field.</msg>
+<arg>xpath=//*[@id="username"]</arg>
+<arg>${CUSTOMER}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Types the given ``txt`` into the text field found by ``selector``.</doc>
+<status status="PASS" start="2024-05-16T18:50:38.697899" elapsed="0.192318"/>
+</kw>
+<kw name="Type Secret" owner="Browser">
+<arg>xpath=//*[@id="password"]</arg>
+<arg>${PASSWORD}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Types the given secret from ``variable_name`` into the text field
+found by ``selector``.</doc>
+<status status="FAIL" start="2024-05-16T18:50:38.890519" elapsed="0.002262">ValueError: Direct assignment of values or variables as 'secret' is not allowed. Use special variable syntax ($var instead of ${var}) to prevent variable values from being spoiled.</status>
+</kw>
+<kw name="Click" owner="Browser">
+<arg>xpath=/html/body/div/div/div[2]/form/button</arg>
+<arg>right</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="NOT RUN" start="2024-05-16T18:50:38.893102" elapsed="0.000059"/>
+</kw>
+<arg>${CUSTOMER}</arg>
+<arg>${PASSWORD}</arg>
+<status status="FAIL" start="2024-05-16T18:50:38.697384" elapsed="0.195951">ValueError: Direct assignment of values or variables as 'secret' is not allowed. Use special variable syntax ($var instead of ${var}) to prevent variable values from being spoiled.</status>
+</kw>
+<kw name="Login succeded">
+<status status="NOT RUN" start="2024-05-16T18:50:38.893652" elapsed="0.000048"/>
+</kw>
+<status status="FAIL" start="2024-05-16T18:50:34.275373" elapsed="4.618560">ValueError: Direct assignment of values or variables as 'secret' is not allowed. Use special variable syntax ($var instead of ${var}) to prevent variable values from being spoiled.</status>
+</test>
+<status status="FAIL" start="2024-05-16T18:50:33.750105" elapsed="5.231863"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Test">Test</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2024-05-16T18:50:34.279585" level="WARN">Open Browser is for quick experimentation and debugging only. Use New Page for production.</msg>
+</errors>
+</robot>

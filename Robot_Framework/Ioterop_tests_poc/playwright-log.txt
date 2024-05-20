@@ -1,0 +1,51 @@
+{"level":30,"time":"2024-05-16T16:50:34.210Z","pid":7105,"hostname":"HeYaA","msg":"Listening on 56487"}
+(node:7105) DeprecationWarning: Calling start() is no longer necessary. It can be safely omitted.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+{"level":30,"time":"2024-05-16T16:50:34.273Z","pid":7105,"hostname":"HeYaA","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-05-16T16:50:34.273Z","pid":7105,"hostname":"HeYaA","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-05-16T16:50:34.277Z","pid":7105,"hostname":"HeYaA","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-05-16T16:50:34.277Z","pid":7105,"hostname":"HeYaA","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-05-16T16:50:34.282Z","pid":7105,"hostname":"HeYaA","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2024-05-16T16:50:34.583Z","pid":7105,"hostname":"HeYaA","msg":"Adding browser to stack: chromium, version: 124.0.6367.29"}
+{"level":30,"time":"2024-05-16T16:50:34.584Z","pid":7105,"hostname":"HeYaA","msg":"End of node method newBrowser"}
+{"level":30,"time":"2024-05-16T16:50:34.584Z","pid":7105,"hostname":"HeYaA","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2024-05-16T16:50:34.590Z","pid":7105,"hostname":"HeYaA","msg":"Start of node method newContext"}
+{"level":30,"time":"2024-05-16T16:50:34.590Z","pid":7105,"hostname":"HeYaA","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2024-05-16T16:50:34.590Z","pid":7105,"hostname":"HeYaA","msg":"Trace file: "}
+{"level":30,"time":"2024-05-16T16:50:34.604Z","pid":7105,"hostname":"HeYaA","msg":"Changed active context"}
+{"level":30,"time":"2024-05-16T16:50:34.604Z","pid":7105,"hostname":"HeYaA","msg":"End of node method newContext"}
+{"level":30,"time":"2024-05-16T16:50:34.609Z","pid":7105,"hostname":"HeYaA","msg":"Start of node method newPage"}
+{"level":30,"time":"2024-05-16T16:50:34.610Z","pid":7105,"hostname":"HeYaA","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2024-05-16T16:50:34.838Z","pid":7105,"hostname":"HeYaA","msg":"Video path: undefined"}
+{"level":30,"time":"2024-05-16T16:50:34.839Z","pid":7105,"hostname":"HeYaA","msg":"Changed active page"}
+{"level":30,"time":"2024-05-16T16:50:38.694Z","pid":7105,"hostname":"HeYaA","msg":"End of node method newPage"}
+{"level":30,"time":"2024-05-16T16:50:38.700Z","pid":7105,"hostname":"HeYaA","msg":"Start of node method typeText"}
+{"level":30,"time":"2024-05-16T16:50:38.701Z","pid":7105,"hostname":"HeYaA","msg":"Strict mode is enabled, find Locator with xpath=//*[@id=\"username\"] in page."}
+{"level":30,"time":"2024-05-16T16:50:38.888Z","pid":7105,"hostname":"HeYaA","msg":"End of node method typeText"}
+{"level":30,"time":"2024-05-16T16:50:38.900Z","pid":7105,"hostname":"HeYaA","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-05-16T16:50:38.903Z","pid":7105,"hostname":"HeYaA","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-05-16T16:50:38.907Z","pid":7105,"hostname":"HeYaA","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-05-16T16:50:38.916Z","pid":7105,"hostname":"HeYaA","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-05-16T16:50:38.923Z","pid":7105,"hostname":"HeYaA","msg":"Changed active context"}
+{"level":30,"time":"2024-05-16T16:50:38.924Z","pid":7105,"hostname":"HeYaA","msg":"Changing current active page: page=55820b4b-512c-4515-a4b1-b0bbf5a2d6e1"}
+{"level":30,"time":"2024-05-16T16:50:38.924Z","pid":7105,"hostname":"HeYaA","msg":"Changed active page"}
+{"level":30,"time":"2024-05-16T16:50:38.928Z","pid":7105,"hostname":"HeYaA","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-05-16T16:50:38.930Z","pid":7105,"hostname":"HeYaA","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-05-16T16:50:38.933Z","pid":7105,"hostname":"HeYaA","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2024-05-16T16:50:38.936Z","pid":7105,"hostname":"HeYaA","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2024-05-16T16:50:38.939Z","pid":7105,"hostname":"HeYaA","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2024-05-16T16:50:38.940Z","pid":7105,"hostname":"HeYaA","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2024-05-16T16:50:38.943Z","pid":7105,"hostname":"HeYaA","msg":"Changing current active page: page=55820b4b-512c-4515-a4b1-b0bbf5a2d6e1"}
+{"level":30,"time":"2024-05-16T16:50:38.943Z","pid":7105,"hostname":"HeYaA","msg":"Changed active page"}
+{"level":30,"time":"2024-05-16T16:50:38.947Z","pid":7105,"hostname":"HeYaA","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-05-16T16:50:38.949Z","pid":7105,"hostname":"HeYaA","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-05-16T16:50:38.952Z","pid":7105,"hostname":"HeYaA","msg":"Changed active context"}
+{"level":30,"time":"2024-05-16T16:50:38.953Z","pid":7105,"hostname":"HeYaA","msg":"Changing current active page: page=55820b4b-512c-4515-a4b1-b0bbf5a2d6e1"}
+{"level":30,"time":"2024-05-16T16:50:38.953Z","pid":7105,"hostname":"HeYaA","msg":"Changed active page"}
+{"level":30,"time":"2024-05-16T16:50:38.956Z","pid":7105,"hostname":"HeYaA","msg":"Start of node method closeContext"}
+{"level":30,"time":"2024-05-16T16:50:38.965Z","pid":7105,"hostname":"HeYaA","msg":"Removed page=184c3749-bdac-484f-b1b0-a8c34e20a924 from context=ff1ccc60-b532-4b7c-8ff1-bfb712f1910f page stack"}
+{"level":30,"time":"2024-05-16T16:50:38.980Z","pid":7105,"hostname":"HeYaA","msg":"End of node method closeContext"}
+{"level":30,"time":"2024-05-16T16:50:38.984Z","pid":7105,"hostname":"HeYaA","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-05-16T16:50:38.985Z","pid":7105,"hostname":"HeYaA","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-05-16T16:50:39.028Z","pid":7105,"hostname":"HeYaA","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2024-05-16T16:50:39.149Z","pid":7105,"hostname":"HeYaA","msg":"End of node method closeAllBrowsers"}
